@@ -1,0 +1,4539 @@
+{
+  "metadata": {
+    "title": "Top 100 Most Used Dependencies by Programming Language",
+    "description": "Comprehensive list of popular dependencies and their licenses across major programming ecosystems including C++",
+    "generated_date": "2025-01-31",
+    "note": "License information is subject to change. Always verify current licenses before use."
+  },
+  "javascript_npm": {
+    "ecosystem": "JavaScript/Node.js (npm)",
+    "package_count": 100,
+    "dependencies": [
+      {
+        "name": "lodash",
+        "license": "MIT",
+        "description": "Utility library"
+      },
+      {
+        "name": "react",
+        "license": "MIT",
+        "description": "UI library"
+      },
+      {
+        "name": "react-dom",
+        "license": "MIT",
+        "description": "React DOM renderer"
+      },
+      {
+        "name": "express",
+        "license": "MIT",
+        "description": "Web framework"
+      },
+      {
+        "name": "typescript",
+        "license": "Apache-2.0",
+        "description": "Typed JavaScript"
+      },
+      {
+        "name": "axios",
+        "license": "MIT",
+        "description": "HTTP client"
+      },
+      {
+        "name": "vue",
+        "license": "MIT",
+        "description": "Progressive framework"
+      },
+      {
+        "name": "webpack",
+        "license": "MIT",
+        "description": "Module bundler"
+      },
+      {
+        "name": "moment",
+        "license": "MIT",
+        "description": "Date library"
+      },
+      {
+        "name": "commander",
+        "license": "MIT",
+        "description": "CLI framework"
+      },
+      {
+        "name": "chalk",
+        "license": "MIT",
+        "description": "Terminal styling"
+      },
+      {
+        "name": "babel-core",
+        "license": "MIT",
+        "description": "JavaScript compiler"
+      },
+      {
+        "name": "eslint",
+        "license": "MIT",
+        "description": "Linting tool"
+      },
+      {
+        "name": "prettier",
+        "license": "MIT",
+        "description": "Code formatter"
+      },
+      {
+        "name": "jest",
+        "license": "MIT",
+        "description": "Testing framework"
+      },
+      {
+        "name": "mocha",
+        "license": "MIT",
+        "description": "Test framework"
+      },
+      {
+        "name": "chai",
+        "license": "MIT",
+        "description": "Assertion library"
+      },
+      {
+        "name": "next",
+        "license": "MIT",
+        "description": "React framework"
+      },
+      {
+        "name": "angular",
+        "license": "MIT",
+        "description": "Platform framework"
+      },
+      {
+        "name": "vue-router",
+        "license": "MIT",
+        "description": "Vue routing"
+      },
+      {
+        "name": "redux",
+        "license": "MIT",
+        "description": "State management"
+      },
+      {
+        "name": "socket.io",
+        "license": "MIT",
+        "description": "WebSocket library"
+      },
+      {
+        "name": "dotenv",
+        "license": "BSD-2-Clause",
+        "description": "Environment variables"
+      },
+      {
+        "name": "uuid",
+        "license": "MIT",
+        "description": "UUID generator"
+      },
+      {
+        "name": "async",
+        "license": "MIT",
+        "description": "Async utilities"
+      },
+      {
+        "name": "request",
+        "license": "Apache-2.0",
+        "description": "HTTP client"
+      },
+      {
+        "name": "yargs",
+        "license": "MIT",
+        "description": "CLI parser"
+      },
+      {
+        "name": "inquirer",
+        "license": "MIT",
+        "description": "CLI prompts"
+      },
+      {
+        "name": "debug",
+        "license": "MIT",
+        "description": "Debug utility"
+      },
+      {
+        "name": "body-parser",
+        "license": "MIT",
+        "description": "Body parsing middleware"
+      },
+      {
+        "name": "cors",
+        "license": "MIT",
+        "description": "CORS middleware"
+      },
+      {
+        "name": "passport",
+        "license": "MIT",
+        "description": "Authentication"
+      },
+      {
+        "name": "jsonwebtoken",
+        "license": "MIT",
+        "description": "JWT library"
+      },
+      {
+        "name": "bcrypt",
+        "license": "MIT",
+        "description": "Password hashing"
+      },
+      {
+        "name": "mongoose",
+        "license": "MIT",
+        "description": "MongoDB ORM"
+      },
+      {
+        "name": "sequelize",
+        "license": "MIT",
+        "description": "SQL ORM"
+      },
+      {
+        "name": "prisma",
+        "license": "Apache-2.0",
+        "description": "Next-gen ORM"
+      },
+      {
+        "name": "typeorm",
+        "license": "MIT",
+        "description": "TypeScript ORM"
+      },
+      {
+        "name": "nodemon",
+        "license": "MIT",
+        "description": "Dev server"
+      },
+      {
+        "name": "pm2",
+        "license": "AGPL-3.0",
+        "description": "Process manager"
+      },
+      {
+        "name": "winston",
+        "license": "MIT",
+        "description": "Logger"
+      },
+      {
+        "name": "morgan",
+        "license": "MIT",
+        "description": "HTTP logger"
+      },
+      {
+        "name": "helmet",
+        "license": "MIT",
+        "description": "Security middleware"
+      },
+      {
+        "name": "express-validator",
+        "license": "MIT",
+        "description": "Validation middleware"
+      },
+      {
+        "name": "multer",
+        "license": "MIT",
+        "description": "File upload"
+      },
+      {
+        "name": "sharp",
+        "license": "Apache-2.0",
+        "description": "Image processing"
+      },
+      {
+        "name": "date-fns",
+        "license": "MIT",
+        "description": "Date utilities"
+      },
+      {
+        "name": "dayjs",
+        "license": "MIT",
+        "description": "Date library"
+      },
+      {
+        "name": "rxjs",
+        "license": "Apache-2.0",
+        "description": "Reactive extensions"
+      },
+      {
+        "name": "ramda",
+        "license": "MIT",
+        "description": "Functional library"
+      },
+      {
+        "name": "immutable",
+        "license": "MIT",
+        "description": "Immutable collections"
+      },
+      {
+        "name": "classnames",
+        "license": "MIT",
+        "description": "CSS class utility"
+      },
+      {
+        "name": "prop-types",
+        "license": "MIT",
+        "description": "Runtime type checking"
+      },
+      {
+        "name": "styled-components",
+        "license": "MIT",
+        "description": "CSS-in-JS"
+      },
+      {
+        "name": "emotion",
+        "license": "MIT",
+        "description": "CSS-in-JS"
+      },
+      {
+        "name": "tailwindcss",
+        "license": "MIT",
+        "description": "Utility CSS"
+      },
+      {
+        "name": "sass",
+        "license": "MIT",
+        "description": "CSS preprocessor"
+      },
+      {
+        "name": "less",
+        "license": "Apache-2.0",
+        "description": "CSS preprocessor"
+      },
+      {
+        "name": "postcss",
+        "license": "MIT",
+        "description": "CSS transformer"
+      },
+      {
+        "name": "autoprefixer",
+        "license": "MIT",
+        "description": "CSS prefixer"
+      },
+      {
+        "name": "vite",
+        "license": "MIT",
+        "description": "Build tool"
+      },
+      {
+        "name": "rollup",
+        "license": "MIT",
+        "description": "Module bundler"
+      },
+      {
+        "name": "parcel",
+        "license": "MIT",
+        "description": "Zero-config bundler"
+      },
+      {
+        "name": "esbuild",
+        "license": "MIT",
+        "description": "Fast bundler"
+      },
+      {
+        "name": "gulp",
+        "license": "MIT",
+        "description": "Task runner"
+      },
+      {
+        "name": "grunt",
+        "license": "MIT",
+        "description": "Task runner"
+      },
+      {
+        "name": "cheerio",
+        "license": "MIT",
+        "description": "HTML parser"
+      },
+      {
+        "name": "jsdom",
+        "license": "MIT",
+        "description": "DOM implementation"
+      },
+      {
+        "name": "puppeteer",
+        "license": "Apache-2.0",
+        "description": "Headless browser"
+      },
+      {
+        "name": "playwright",
+        "license": "Apache-2.0",
+        "description": "Browser automation"
+      },
+      {
+        "name": "cypress",
+        "license": "MIT",
+        "description": "E2E testing"
+      },
+      {
+        "name": "testing-library",
+        "license": "MIT",
+        "description": "Testing utilities"
+      },
+      {
+        "name": "supertest",
+        "license": "MIT",
+        "description": "HTTP testing"
+      },
+      {
+        "name": "sinon",
+        "license": "BSD-3-Clause",
+        "description": "Test spies/stubs"
+      },
+      {
+        "name": "nock",
+        "license": "MIT",
+        "description": "HTTP mocking"
+      },
+      {
+        "name": "faker",
+        "license": "MIT",
+        "description": "Fake data generator"
+      },
+      {
+        "name": "validator",
+        "license": "MIT",
+        "description": "String validation"
+      },
+      {
+        "name": "joi",
+        "license": "BSD-3-Clause",
+        "description": "Schema validation"
+      },
+      {
+        "name": "yup",
+        "license": "MIT",
+        "description": "Schema validation"
+      },
+      {
+        "name": "zod",
+        "license": "MIT",
+        "description": "TypeScript schema"
+      },
+      {
+        "name": "graphql",
+        "license": "MIT",
+        "description": "Query language"
+      },
+      {
+        "name": "apollo-server",
+        "license": "MIT",
+        "description": "GraphQL server"
+      },
+      {
+        "name": "apollo-client",
+        "license": "MIT",
+        "description": "GraphQL client"
+      },
+      {
+        "name": "relay",
+        "license": "MIT",
+        "description": "GraphQL framework"
+      },
+      {
+        "name": "redis",
+        "license": "MIT",
+        "description": "Redis client"
+      },
+      {
+        "name": "bull",
+        "license": "MIT",
+        "description": "Job queue"
+      },
+      {
+        "name": "agenda",
+        "license": "MIT",
+        "description": "Job scheduling"
+      },
+      {
+        "name": "node-cron",
+        "license": "ISC",
+        "description": "Cron jobs"
+      },
+      {
+        "name": "nodemailer",
+        "license": "MIT",
+        "description": "Email sending"
+      },
+      {
+        "name": "pdfkit",
+        "license": "MIT",
+        "description": "PDF generation"
+      },
+      {
+        "name": "exceljs",
+        "license": "MIT",
+        "description": "Excel manipulation"
+      },
+      {
+        "name": "csv-parser",
+        "license": "MIT",
+        "description": "CSV parsing"
+      },
+      {
+        "name": "fast-csv",
+        "license": "MIT",
+        "description": "CSV streaming"
+      },
+      {
+        "name": "markdown-it",
+        "license": "MIT",
+        "description": "Markdown parser"
+      },
+      {
+        "name": "highlight.js",
+        "license": "BSD-3-Clause",
+        "description": "Syntax highlighting"
+      },
+      {
+        "name": "prismjs",
+        "license": "MIT",
+        "description": "Syntax highlighting"
+      },
+      {
+        "name": "d3",
+        "license": "ISC",
+        "description": "Data visualization"
+      },
+      {
+        "name": "chart.js",
+        "license": "MIT",
+        "description": "Charts library"
+      },
+      {
+        "name": "three.js",
+        "license": "MIT",
+        "description": "3D library"
+      }
+    ]
+  },
+  "python_pypi": {
+    "ecosystem": "Python (PyPI)",
+    "package_count": 100,
+    "dependencies": [
+      {
+        "name": "requests",
+        "license": "Apache-2.0",
+        "description": "HTTP library"
+      },
+      {
+        "name": "numpy",
+        "license": "BSD-3-Clause",
+        "description": "Numerical computing"
+      },
+      {
+        "name": "pandas",
+        "license": "BSD-3-Clause",
+        "description": "Data analysis"
+      },
+      {
+        "name": "matplotlib",
+        "license": "PSF",
+        "description": "Plotting library"
+      },
+      {
+        "name": "scipy",
+        "license": "BSD-3-Clause",
+        "description": "Scientific computing"
+      },
+      {
+        "name": "scikit-learn",
+        "license": "BSD-3-Clause",
+        "description": "Machine learning"
+      },
+      {
+        "name": "tensorflow",
+        "license": "Apache-2.0",
+        "description": "ML framework"
+      },
+      {
+        "name": "pytorch",
+        "license": "BSD-3-Clause",
+        "description": "ML framework"
+      },
+      {
+        "name": "keras",
+        "license": "Apache-2.0",
+        "description": "Neural networks"
+      },
+      {
+        "name": "flask",
+        "license": "BSD-3-Clause",
+        "description": "Web framework"
+      },
+      {
+        "name": "django",
+        "license": "BSD-3-Clause",
+        "description": "Web framework"
+      },
+      {
+        "name": "fastapi",
+        "license": "MIT",
+        "description": "Modern web framework"
+      },
+      {
+        "name": "sqlalchemy",
+        "license": "MIT",
+        "description": "SQL toolkit"
+      },
+      {
+        "name": "pytest",
+        "license": "MIT",
+        "description": "Testing framework"
+      },
+      {
+        "name": "pillow",
+        "license": "HPND",
+        "description": "Image processing"
+      },
+      {
+        "name": "beautifulsoup4",
+        "license": "MIT",
+        "description": "HTML parser"
+      },
+      {
+        "name": "selenium",
+        "license": "Apache-2.0",
+        "description": "Browser automation"
+      },
+      {
+        "name": "scrapy",
+        "license": "BSD-3-Clause",
+        "description": "Web scraping"
+      },
+      {
+        "name": "lxml",
+        "license": "BSD-3-Clause",
+        "description": "XML processing"
+      },
+      {
+        "name": "click",
+        "license": "BSD-3-Clause",
+        "description": "CLI framework"
+      },
+      {
+        "name": "boto3",
+        "license": "Apache-2.0",
+        "description": "AWS SDK"
+      },
+      {
+        "name": "celery",
+        "license": "BSD-3-Clause",
+        "description": "Task queue"
+      },
+      {
+        "name": "redis",
+        "license": "MIT",
+        "description": "Redis client"
+      },
+      {
+        "name": "pymongo",
+        "license": "Apache-2.0",
+        "description": "MongoDB driver"
+      },
+      {
+        "name": "psycopg2",
+        "license": "LGPL-3.0",
+        "description": "PostgreSQL adapter"
+      },
+      {
+        "name": "mysqlclient",
+        "license": "GPL-2.0",
+        "description": "MySQL driver"
+      },
+      {
+        "name": "pyyaml",
+        "license": "MIT",
+        "description": "YAML parser"
+      },
+      {
+        "name": "python-dotenv",
+        "license": "BSD-3-Clause",
+        "description": "Environment variables"
+      },
+      {
+        "name": "pydantic",
+        "license": "MIT",
+        "description": "Data validation"
+      },
+      {
+        "name": "marshmallow",
+        "license": "MIT",
+        "description": "Serialization"
+      },
+      {
+        "name": "black",
+        "license": "MIT",
+        "description": "Code formatter"
+      },
+      {
+        "name": "pylint",
+        "license": "GPL-2.0",
+        "description": "Code analyzer"
+      },
+      {
+        "name": "flake8",
+        "license": "MIT",
+        "description": "Style checker"
+      },
+      {
+        "name": "mypy",
+        "license": "MIT",
+        "description": "Type checker"
+      },
+      {
+        "name": "ipython",
+        "license": "BSD-3-Clause",
+        "description": "Interactive shell"
+      },
+      {
+        "name": "jupyter",
+        "license": "BSD-3-Clause",
+        "description": "Notebook environment"
+      },
+      {
+        "name": "jupyterlab",
+        "license": "BSD-3-Clause",
+        "description": "Notebook IDE"
+      },
+      {
+        "name": "notebook",
+        "license": "BSD-3-Clause",
+        "description": "Web notebook"
+      },
+      {
+        "name": "sphinx",
+        "license": "BSD-2-Clause",
+        "description": "Documentation"
+      },
+      {
+        "name": "mkdocs",
+        "license": "BSD-2-Clause",
+        "description": "Documentation"
+      },
+      {
+        "name": "coverage",
+        "license": "Apache-2.0",
+        "description": "Code coverage"
+      },
+      {
+        "name": "tox",
+        "license": "MIT",
+        "description": "Testing automation"
+      },
+      {
+        "name": "virtualenv",
+        "license": "MIT",
+        "description": "Virtual environments"
+      },
+      {
+        "name": "pipenv",
+        "license": "MIT",
+        "description": "Package manager"
+      },
+      {
+        "name": "poetry",
+        "license": "MIT",
+        "description": "Dependency manager"
+      },
+      {
+        "name": "setuptools",
+        "license": "MIT",
+        "description": "Build system"
+      },
+      {
+        "name": "wheel",
+        "license": "MIT",
+        "description": "Package format"
+      },
+      {
+        "name": "twine",
+        "license": "Apache-2.0",
+        "description": "PyPI uploader"
+      },
+      {
+        "name": "gunicorn",
+        "license": "MIT",
+        "description": "WSGI server"
+      },
+      {
+        "name": "uwsgi",
+        "license": "GPL-2.0",
+        "description": "Application server"
+      },
+      {
+        "name": "aiohttp",
+        "license": "Apache-2.0",
+        "description": "Async HTTP"
+      },
+      {
+        "name": "httpx",
+        "license": "BSD-3-Clause",
+        "description": "HTTP client"
+      },
+      {
+        "name": "asyncio",
+        "license": "PSF",
+        "description": "Async framework"
+      },
+      {
+        "name": "twisted",
+        "license": "MIT",
+        "description": "Networking engine"
+      },
+      {
+        "name": "tornado",
+        "license": "Apache-2.0",
+        "description": "Web framework"
+      },
+      {
+        "name": "sanic",
+        "license": "MIT",
+        "description": "Async web framework"
+      },
+      {
+        "name": "starlette",
+        "license": "BSD-3-Clause",
+        "description": "ASGI framework"
+      },
+      {
+        "name": "uvicorn",
+        "license": "BSD-3-Clause",
+        "description": "ASGI server"
+      },
+      {
+        "name": "jinja2",
+        "license": "BSD-3-Clause",
+        "description": "Template engine"
+      },
+      {
+        "name": "mako",
+        "license": "MIT",
+        "description": "Template library"
+      },
+      {
+        "name": "wtforms",
+        "license": "BSD-3-Clause",
+        "description": "Form validation"
+      },
+      {
+        "name": "alembic",
+        "license": "MIT",
+        "description": "Database migration"
+      },
+      {
+        "name": "peewee",
+        "license": "MIT",
+        "description": "ORM"
+      },
+      {
+        "name": "sqlmodel",
+        "license": "MIT",
+        "description": "SQL ORM"
+      },
+      {
+        "name": "tortoise-orm",
+        "license": "Apache-2.0",
+        "description": "Async ORM"
+      },
+      {
+        "name": "pyjwt",
+        "license": "MIT",
+        "description": "JWT library"
+      },
+      {
+        "name": "cryptography",
+        "license": "Apache-2.0 OR BSD-3-Clause",
+        "description": "Cryptographic recipes"
+      },
+      {
+        "name": "passlib",
+        "license": "BSD-3-Clause",
+        "description": "Password hashing"
+      },
+      {
+        "name": "bcrypt",
+        "license": "Apache-2.0",
+        "description": "Password hashing"
+      },
+      {
+        "name": "python-multipart",
+        "license": "Apache-2.0",
+        "description": "Multipart parser"
+      },
+      {
+        "name": "email-validator",
+        "license": "CC0-1.0",
+        "description": "Email validation"
+      },
+      {
+        "name": "python-dateutil",
+        "license": "Apache-2.0 OR BSD-3-Clause",
+        "description": "Date utilities"
+      },
+      {
+        "name": "pytz",
+        "license": "MIT",
+        "description": "Timezone library"
+      },
+      {
+        "name": "arrow",
+        "license": "Apache-2.0",
+        "description": "Date/time library"
+      },
+      {
+        "name": "pendulum",
+        "license": "MIT",
+        "description": "DateTime library"
+      },
+      {
+        "name": "colorama",
+        "license": "BSD-3-Clause",
+        "description": "Terminal colors"
+      },
+      {
+        "name": "rich",
+        "license": "MIT",
+        "description": "Rich text formatting"
+      },
+      {
+        "name": "tqdm",
+        "license": "MPL-2.0 OR MIT",
+        "description": "Progress bars"
+      },
+      {
+        "name": "loguru",
+        "license": "MIT",
+        "description": "Logging library"
+      },
+      {
+        "name": "structlog",
+        "license": "MIT OR Apache-2.0",
+        "description": "Structured logging"
+      },
+      {
+        "name": "sentry-sdk",
+        "license": "BSD-2-Clause",
+        "description": "Error tracking"
+      },
+      {
+        "name": "prometheus-client",
+        "license": "Apache-2.0",
+        "description": "Metrics library"
+      },
+      {
+        "name": "statsmodels",
+        "license": "BSD-3-Clause",
+        "description": "Statistical models"
+      },
+      {
+        "name": "seaborn",
+        "license": "BSD-3-Clause",
+        "description": "Statistical visualization"
+      },
+      {
+        "name": "plotly",
+        "license": "MIT",
+        "description": "Interactive plots"
+      },
+      {
+        "name": "bokeh",
+        "license": "BSD-3-Clause",
+        "description": "Interactive visualization"
+      },
+      {
+        "name": "altair",
+        "license": "BSD-3-Clause",
+        "description": "Declarative visualization"
+      },
+      {
+        "name": "opencv-python",
+        "license": "MIT",
+        "description": "Computer vision"
+      },
+      {
+        "name": "imageio",
+        "license": "BSD-2-Clause",
+        "description": "Image I/O"
+      },
+      {
+        "name": "scikit-image",
+        "license": "BSD-3-Clause",
+        "description": "Image processing"
+      },
+      {
+        "name": "nltk",
+        "license": "Apache-2.0",
+        "description": "Natural language"
+      },
+      {
+        "name": "spacy",
+        "license": "MIT",
+        "description": "NLP library"
+      },
+      {
+        "name": "gensim",
+        "license": "LGPL-2.1",
+        "description": "Topic modeling"
+      },
+      {
+        "name": "transformers",
+        "license": "Apache-2.0",
+        "description": "NLP models"
+      },
+      {
+        "name": "huggingface-hub",
+        "license": "Apache-2.0",
+        "description": "Model hub"
+      },
+      {
+        "name": "openai",
+        "license": "MIT",
+        "description": "OpenAI API"
+      },
+      {
+        "name": "anthropic",
+        "license": "MIT",
+        "description": "Anthropic API"
+      }
+    ]
+  },
+  "java_maven": {
+    "ecosystem": "Java (Maven Central)",
+    "package_count": 100,
+    "dependencies": [
+      {
+        "name": "junit-jupiter",
+        "license": "EPL-2.0",
+        "description": "Testing framework"
+      },
+      {
+        "name": "mockito-core",
+        "license": "MIT",
+        "description": "Mocking framework"
+      },
+      {
+        "name": "slf4j-api",
+        "license": "MIT",
+        "description": "Logging facade"
+      },
+      {
+        "name": "logback-classic",
+        "license": "EPL-1.0 OR LGPL-2.1",
+        "description": "Logging framework"
+      },
+      {
+        "name": "log4j-core",
+        "license": "Apache-2.0",
+        "description": "Logging utility"
+      },
+      {
+        "name": "spring-boot-starter",
+        "license": "Apache-2.0",
+        "description": "Spring Boot"
+      },
+      {
+        "name": "spring-boot-starter-web",
+        "license": "Apache-2.0",
+        "description": "Web starter"
+      },
+      {
+        "name": "spring-boot-starter-data-jpa",
+        "license": "Apache-2.0",
+        "description": "JPA starter"
+      },
+      {
+        "name": "spring-boot-starter-security",
+        "license": "Apache-2.0",
+        "description": "Security starter"
+      },
+      {
+        "name": "spring-boot-starter-test",
+        "license": "Apache-2.0",
+        "description": "Test starter"
+      },
+      {
+        "name": "hibernate-core",
+        "license": "LGPL-2.1",
+        "description": "ORM framework"
+      },
+      {
+        "name": "hibernate-validator",
+        "license": "Apache-2.0",
+        "description": "Bean validation"
+      },
+      {
+        "name": "jackson-databind",
+        "license": "Apache-2.0",
+        "description": "JSON processing"
+      },
+      {
+        "name": "jackson-core",
+        "license": "Apache-2.0",
+        "description": "JSON core"
+      },
+      {
+        "name": "jackson-annotations",
+        "license": "Apache-2.0",
+        "description": "JSON annotations"
+      },
+      {
+        "name": "gson",
+        "license": "Apache-2.0",
+        "description": "JSON library"
+      },
+      {
+        "name": "guava",
+        "license": "Apache-2.0",
+        "description": "Core libraries"
+      },
+      {
+        "name": "commons-lang3",
+        "license": "Apache-2.0",
+        "description": "Lang utilities"
+      },
+      {
+        "name": "commons-io",
+        "license": "Apache-2.0",
+        "description": "IO utilities"
+      },
+      {
+        "name": "commons-collections4",
+        "license": "Apache-2.0",
+        "description": "Collections"
+      },
+      {
+        "name": "commons-codec",
+        "license": "Apache-2.0",
+        "description": "Encoders/decoders"
+      },
+      {
+        "name": "commons-beanutils",
+        "license": "Apache-2.0",
+        "description": "Bean utilities"
+      },
+      {
+        "name": "httpclient",
+        "license": "Apache-2.0",
+        "description": "HTTP client"
+      },
+      {
+        "name": "okhttp",
+        "license": "Apache-2.0",
+        "description": "HTTP client"
+      },
+      {
+        "name": "retrofit",
+        "license": "Apache-2.0",
+        "description": "Type-safe HTTP"
+      },
+      {
+        "name": "lombok",
+        "license": "MIT",
+        "description": "Code generation"
+      },
+      {
+        "name": "mapstruct",
+        "license": "Apache-2.0",
+        "description": "Bean mapping"
+      },
+      {
+        "name": "aspectj",
+        "license": "EPL-1.0",
+        "description": "AOP framework"
+      },
+      {
+        "name": "quartz",
+        "license": "Apache-2.0",
+        "description": "Job scheduler"
+      },
+      {
+        "name": "caffeine",
+        "license": "Apache-2.0",
+        "description": "Caching library"
+      },
+      {
+        "name": "ehcache",
+        "license": "Apache-2.0",
+        "description": "Cache library"
+      },
+      {
+        "name": "hazelcast",
+        "license": "Apache-2.0",
+        "description": "In-memory grid"
+      },
+      {
+        "name": "redis-clients-jedis",
+        "license": "MIT",
+        "description": "Redis client"
+      },
+      {
+        "name": "lettuce-core",
+        "license": "Apache-2.0",
+        "description": "Redis client"
+      },
+      {
+        "name": "postgresql",
+        "license": "BSD-2-Clause",
+        "description": "JDBC driver"
+      },
+      {
+        "name": "mysql-connector-j",
+        "license": "GPL-2.0 WITH Universal-FOSS-exception-1.0",
+        "description": "MySQL driver"
+      },
+      {
+        "name": "h2",
+        "license": "MPL-2.0 OR EPL-1.0",
+        "description": "Database engine"
+      },
+      {
+        "name": "flyway-core",
+        "license": "Apache-2.0",
+        "description": "Database migration"
+      },
+      {
+        "name": "liquibase-core",
+        "license": "Apache-2.0",
+        "description": "Database migration"
+      },
+      {
+        "name": "mybatis",
+        "license": "Apache-2.0",
+        "description": "SQL mapper"
+      },
+      {
+        "name": "jooq",
+        "license": "Apache-2.0",
+        "description": "SQL builder"
+      },
+      {
+        "name": "querydsl-core",
+        "license": "Apache-2.0",
+        "description": "Query DSL"
+      },
+      {
+        "name": "thymeleaf",
+        "license": "Apache-2.0",
+        "description": "Template engine"
+      },
+      {
+        "name": "freemarker",
+        "license": "Apache-2.0",
+        "description": "Template engine"
+      },
+      {
+        "name": "velocity",
+        "license": "Apache-2.0",
+        "description": "Template engine"
+      },
+      {
+        "name": "tomcat-embed-core",
+        "license": "Apache-2.0",
+        "description": "Embedded Tomcat"
+      },
+      {
+        "name": "jetty-server",
+        "license": "Apache-2.0 OR EPL-1.0",
+        "description": "Web server"
+      },
+      {
+        "name": "undertow-core",
+        "license": "Apache-2.0",
+        "description": "Web server"
+      },
+      {
+        "name": "netty-all",
+        "license": "Apache-2.0",
+        "description": "Network framework"
+      },
+      {
+        "name": "vertx-core",
+        "license": "Apache-2.0 OR EPL-1.0",
+        "description": "Reactive toolkit"
+      },
+      {
+        "name": "reactor-core",
+        "license": "Apache-2.0",
+        "description": "Reactive library"
+      },
+      {
+        "name": "rxjava",
+        "license": "Apache-2.0",
+        "description": "Reactive extensions"
+      },
+      {
+        "name": "micrometer-core",
+        "license": "Apache-2.0",
+        "description": "Metrics facade"
+      },
+      {
+        "name": "prometheus-client",
+        "license": "Apache-2.0",
+        "description": "Metrics library"
+      },
+      {
+        "name": "dropwizard-metrics",
+        "license": "Apache-2.0",
+        "description": "Metrics library"
+      },
+      {
+        "name": "assertj-core",
+        "license": "Apache-2.0",
+        "description": "Fluent assertions"
+      },
+      {
+        "name": "testcontainers",
+        "license": "MIT",
+        "description": "Container testing"
+      },
+      {
+        "name": "rest-assured",
+        "license": "Apache-2.0",
+        "description": "REST testing"
+      },
+      {
+        "name": "wiremock",
+        "license": "Apache-2.0",
+        "description": "HTTP mocking"
+      },
+      {
+        "name": "awaitility",
+        "license": "Apache-2.0",
+        "description": "Async testing"
+      },
+      {
+        "name": "jmh-core",
+        "license": "GPL-2.0 WITH Classpath-exception-2.0",
+        "description": "Benchmarking"
+      },
+      {
+        "name": "snakeyaml",
+        "license": "Apache-2.0",
+        "description": "YAML parser"
+      },
+      {
+        "name": "xstream",
+        "license": "BSD-3-Clause",
+        "description": "XML serialization"
+      },
+      {
+        "name": "jaxb-api",
+        "license": "EDL-1.0",
+        "description": "XML binding"
+      },
+      {
+        "name": "dom4j",
+        "license": "BSD-3-Clause",
+        "description": "XML framework"
+      },
+      {
+        "name": "bcprov-jdk15on",
+        "license": "MIT",
+        "description": "Cryptography"
+      },
+      {
+        "name": "jjwt-api",
+        "license": "Apache-2.0",
+        "description": "JWT library"
+      },
+      {
+        "name": "spring-security-crypto",
+        "license": "Apache-2.0",
+        "description": "Security crypto"
+      },
+      {
+        "name": "passay",
+        "license": "Apache-2.0 OR LGPL-3.0",
+        "description": "Password validation"
+      },
+      {
+        "name": "commons-validator",
+        "license": "Apache-2.0",
+        "description": "Validation framework"
+      },
+      {
+        "name": "javax.validation-api",
+        "license": "Apache-2.0",
+        "description": "Validation API"
+      },
+      {
+        "name": "joda-time",
+        "license": "Apache-2.0",
+        "description": "Date/time library"
+      },
+      {
+        "name": "jsoup",
+        "license": "MIT",
+        "description": "HTML parser"
+      },
+      {
+        "name": "poi",
+        "license": "Apache-2.0",
+        "description": "MS Office documents"
+      },
+      {
+        "name": "poi-ooxml",
+        "license": "Apache-2.0",
+        "description": "Office Open XML"
+      },
+      {
+        "name": "itext7-core",
+        "license": "AGPL-3.0",
+        "description": "PDF library"
+      },
+      {
+        "name": "pdfbox",
+        "license": "Apache-2.0",
+        "description": "PDF library"
+      },
+      {
+        "name": "commons-csv",
+        "license": "Apache-2.0",
+        "description": "CSV parser"
+      },
+      {
+        "name": "opencsv",
+        "license": "Apache-2.0",
+        "description": "CSV library"
+      },
+      {
+        "name": "kafka-clients",
+        "license": "Apache-2.0",
+        "description": "Kafka client"
+      },
+      {
+        "name": "activemq-client",
+        "license": "Apache-2.0",
+        "description": "JMS client"
+      },
+      {
+        "name": "rabbitmq-client",
+        "license": "Apache-2.0 OR MPL-2.0",
+        "description": "AMQP client"
+      },
+      {
+        "name": "aws-java-sdk-s3",
+        "license": "Apache-2.0",
+        "description": "AWS S3 SDK"
+      },
+      {
+        "name": "aws-java-sdk-core",
+        "license": "Apache-2.0",
+        "description": "AWS SDK Core"
+      },
+      {
+        "name": "google-cloud-storage",
+        "license": "Apache-2.0",
+        "description": "GCP Storage"
+      },
+      {
+        "name": "azure-storage-blob",
+        "license": "MIT",
+        "description": "Azure Blob Storage"
+      },
+      {
+        "name": "grpc-netty",
+        "license": "Apache-2.0",
+        "description": "gRPC framework"
+      },
+      {
+        "name": "protobuf-java",
+        "license": "BSD-3-Clause",
+        "description": "Protocol Buffers"
+      },
+      {
+        "name": "avro",
+        "license": "Apache-2.0",
+        "description": "Data serialization"
+      },
+      {
+        "name": "swagger-annotations",
+        "license": "Apache-2.0",
+        "description": "API annotations"
+      },
+      {
+        "name": "springdoc-openapi",
+        "license": "Apache-2.0",
+        "description": "OpenAPI docs"
+      },
+      {
+        "name": "resilience4j-core",
+        "license": "Apache-2.0",
+        "description": "Fault tolerance"
+      },
+      {
+        "name": "hystrix-core",
+        "license": "Apache-2.0",
+        "description": "Circuit breaker"
+      },
+      {
+        "name": "feign-core",
+        "license": "Apache-2.0",
+        "description": "HTTP client"
+      },
+      {
+        "name": "ribbon-core",
+        "license": "Apache-2.0",
+        "description": "Load balancer"
+      },
+      {
+        "name": "eureka-client",
+        "license": "Apache-2.0",
+        "description": "Service discovery"
+      },
+      {
+        "name": "zipkin-reporter",
+        "license": "Apache-2.0",
+        "description": "Distributed tracing"
+      }
+    ]
+  },
+  "csharp_nuget": {
+    "ecosystem": ".NET/C# (NuGet)",
+    "package_count": 100,
+    "dependencies": [
+      {
+        "name": "Newtonsoft.Json",
+        "license": "MIT",
+        "description": "JSON framework"
+      },
+      {
+        "name": "System.Text.Json",
+        "license": "MIT",
+        "description": "JSON library"
+      },
+      {
+        "name": "EntityFrameworkCore",
+        "license": "MIT",
+        "description": "ORM framework"
+      },
+      {
+        "name": "Dapper",
+        "license": "Apache-2.0",
+        "description": "Micro ORM"
+      },
+      {
+        "name": "AutoMapper",
+        "license": "MIT",
+        "description": "Object mapper"
+      },
+      {
+        "name": "Serilog",
+        "license": "Apache-2.0",
+        "description": "Logging library"
+      },
+      {
+        "name": "NLog",
+        "license": "BSD-3-Clause",
+        "description": "Logging platform"
+      },
+      {
+        "name": "xUnit",
+        "license": "Apache-2.0",
+        "description": "Testing framework"
+      },
+      {
+        "name": "NUnit",
+        "license": "MIT",
+        "description": "Testing framework"
+      },
+      {
+        "name": "Moq",
+        "license": "BSD-3-Clause",
+        "description": "Mocking library"
+      },
+      {
+        "name": "FluentAssertions",
+        "license": "Apache-2.0",
+        "description": "Assertion library"
+      },
+      {
+        "name": "Polly",
+        "license": "BSD-3-Clause",
+        "description": "Resilience library"
+      },
+      {
+        "name": "MediatR",
+        "license": "Apache-2.0",
+        "description": "Mediator pattern"
+      },
+      {
+        "name": "FluentValidation",
+        "license": "Apache-2.0",
+        "description": "Validation library"
+      },
+      {
+        "name": "Swashbuckle.AspNetCore",
+        "license": "MIT",
+        "description": "Swagger/OpenAPI"
+      },
+      {
+        "name": "IdentityServer4",
+        "license": "Apache-2.0",
+        "description": "OAuth/OIDC framework"
+      },
+      {
+        "name": "IdentityModel",
+        "license": "Apache-2.0",
+        "description": "Identity utilities"
+      },
+      {
+        "name": "RestSharp",
+        "license": "Apache-2.0",
+        "description": "REST client"
+      },
+      {
+        "name": "Refit",
+        "license": "Apache-2.0",
+        "description": "REST library"
+      },
+      {
+        "name": "StackExchange.Redis",
+        "license": "MIT",
+        "description": "Redis client"
+      },
+      {
+        "name": "MongoDB.Driver",
+        "license": "Apache-2.0",
+        "description": "MongoDB driver"
+      },
+      {
+        "name": "Npgsql",
+        "license": "PostgreSQL",
+        "description": "PostgreSQL provider"
+      },
+      {
+        "name": "MySql.Data",
+        "license": "GPL-2.0",
+        "description": "MySQL connector"
+      },
+      {
+        "name": "Pomelo.EntityFrameworkCore.MySql",
+        "license": "MIT",
+        "description": "MySQL EF provider"
+      },
+      {
+        "name": "Microsoft.Data.SqlClient",
+        "license": "MIT",
+        "description": "SQL Server client"
+      },
+      {
+        "name": "Hangfire",
+        "license": "LGPL-3.0",
+        "description": "Background jobs"
+      },
+      {
+        "name": "Quartz",
+        "license": "Apache-2.0",
+        "description": "Job scheduler"
+      },
+      {
+        "name": "MassTransit",
+        "license": "Apache-2.0",
+        "description": "Message bus"
+      },
+      {
+        "name": "RabbitMQ.Client",
+        "license": "Apache-2.0 OR MPL-2.0",
+        "description": "RabbitMQ client"
+      },
+      {
+        "name": "Confluent.Kafka",
+        "license": "Apache-2.0",
+        "description": "Kafka client"
+      },
+      {
+        "name": "EPPlus",
+        "license": "Polyform-Noncommercial-1.0.0",
+        "description": "Excel library"
+      },
+      {
+        "name": "ClosedXML",
+        "license": "MIT",
+        "description": "Excel library"
+      },
+      {
+        "name": "NPOI",
+        "license": "Apache-2.0",
+        "description": "Office documents"
+      },
+      {
+        "name": "iTextSharp",
+        "license": "AGPL-3.0",
+        "description": "PDF library"
+      },
+      {
+        "name": "PdfSharpCore",
+        "license": "MIT",
+        "description": "PDF library"
+      },
+      {
+        "name": "QuestPDF",
+        "license": "MIT",
+        "description": "PDF generation"
+      },
+      {
+        "name": "CsvHelper",
+        "license": "MS-PL OR Apache-2.0",
+        "description": "CSV library"
+      },
+      {
+        "name": "HtmlAgilityPack",
+        "license": "MIT",
+        "description": "HTML parser"
+      },
+      {
+        "name": "AngleSharp",
+        "license": "MIT",
+        "description": "HTML/CSS parser"
+      },
+      {
+        "name": "Selenium.WebDriver",
+        "license": "Apache-2.0",
+        "description": "Browser automation"
+      },
+      {
+        "name": "Bogus",
+        "license": "MIT",
+        "description": "Fake data generator"
+      },
+      {
+        "name": "BenchmarkDotNet",
+        "license": "MIT",
+        "description": "Benchmarking library"
+      },
+      {
+        "name": "Humanizer",
+        "license": "MIT",
+        "description": "String manipulation"
+      },
+      {
+        "name": "YamlDotNet",
+        "license": "MIT",
+        "description": "YAML library"
+      },
+      {
+        "name": "CommandLineParser",
+        "license": "MIT",
+        "description": "CLI parser"
+      },
+      {
+        "name": "Spectre.Console",
+        "license": "MIT",
+        "description": "CLI framework"
+      },
+      {
+        "name": "Microsoft.Extensions.DependencyInjection",
+        "license": "MIT",
+        "description": "DI container"
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration",
+        "license": "MIT",
+        "description": "Configuration"
+      },
+      {
+        "name": "Microsoft.Extensions.Logging",
+        "license": "MIT",
+        "description": "Logging abstractions"
+      },
+      {
+        "name": "Microsoft.Extensions.Options",
+        "license": "MIT",
+        "description": "Options pattern"
+      },
+      {
+        "name": "Microsoft.Extensions.Http",
+        "license": "MIT",
+        "description": "HTTP factory"
+      },
+      {
+        "name": "Microsoft.Extensions.Caching.Memory",
+        "license": "MIT",
+        "description": "Memory cache"
+      },
+      {
+        "name": "Microsoft.Extensions.Hosting",
+        "license": "MIT",
+        "description": "Generic host"
+      },
+      {
+        "name": "BCrypt.Net-Next",
+        "license": "MIT",
+        "description": "Password hashing"
+      },
+      {
+        "name": "System.IdentityModel.Tokens.Jwt",
+        "license": "MIT",
+        "description": "JWT tokens"
+      },
+      {
+        "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+        "license": "MIT",
+        "description": "JWT auth"
+      },
+      {
+        "name": "BouncyCastle.Cryptography",
+        "license": "MIT",
+        "description": "Cryptography"
+      },
+      {
+        "name": "Grpc.Net.Client",
+        "license": "Apache-2.0",
+        "description": "gRPC client"
+      },
+      {
+        "name": "Grpc.AspNetCore",
+        "license": "Apache-2.0",
+        "description": "gRPC services"
+      },
+      {
+        "name": "Google.Protobuf",
+        "license": "BSD-3-Clause",
+        "description": "Protocol Buffers"
+      },
+      {
+        "name": "GraphQL",
+        "license": "MIT",
+        "description": "GraphQL library"
+      },
+      {
+        "name": "HotChocolate",
+        "license": "MIT",
+        "description": "GraphQL server"
+      },
+      {
+        "name": "SignalR",
+        "license": "Apache-2.0",
+        "description": "Real-time library"
+      },
+      {
+        "name": "ImageSharp",
+        "license": "Apache-2.0",
+        "description": "Image processing"
+      },
+      {
+        "name": "SkiaSharp",
+        "license": "MIT",
+        "description": "2D graphics"
+      },
+      {
+        "name": "AWSSDK.Core",
+        "license": "Apache-2.0",
+        "description": "AWS SDK"
+      },
+      {
+        "name": "AWSSDK.S3",
+        "license": "Apache-2.0",
+        "description": "AWS S3"
+      },
+      {
+        "name": "Azure.Storage.Blobs",
+        "license": "MIT",
+        "description": "Azure Blob Storage"
+      },
+      {
+        "name": "Google.Cloud.Storage.V1",
+        "license": "Apache-2.0",
+        "description": "Google Cloud Storage"
+      },
+      {
+        "name": "Stripe.net",
+        "license": "Apache-2.0",
+        "description": "Stripe API"
+      },
+      {
+        "name": "Twilio",
+        "license": "MIT",
+        "description": "Twilio API"
+      },
+      {
+        "name": "SendGrid",
+        "license": "MIT",
+        "description": "Email service"
+      },
+      {
+        "name": "MailKit",
+        "license": "MIT",
+        "description": "Email library"
+      },
+      {
+        "name": "MimeKit",
+        "license": "MIT",
+        "description": "MIME library"
+      },
+      {
+        "name": "FluentEmail.Core",
+        "license": "MIT",
+        "description": "Email library"
+      },
+      {
+        "name": "NodaTime",
+        "license": "Apache-2.0",
+        "description": "Date/time library"
+      },
+      {
+        "name": "TimeZoneConverter",
+        "license": "MIT",
+        "description": "Timezone converter"
+      },
+      {
+        "name": "Elasticsearch.Net",
+        "license": "Apache-2.0",
+        "description": "Elasticsearch client"
+      },
+      {
+        "name": "NEST",
+        "license": "Apache-2.0",
+        "description": "Elasticsearch client"
+      },
+      {
+        "name": "Sentry",
+        "license": "MIT",
+        "description": "Error tracking"
+      },
+      {
+        "name": "Seq.Extensions.Logging",
+        "license": "Apache-2.0",
+        "description": "Seq logging"
+      },
+      {
+        "name": "Scrutor",
+        "license": "MIT",
+        "description": "Assembly scanning"
+      },
+      {
+        "name": "Autofac",
+        "license": "MIT",
+        "description": "IoC container"
+      },
+      {
+        "name": "Castle.Core",
+        "license": "Apache-2.0",
+        "description": "Dynamic proxy"
+      },
+      {
+        "name": "Mapster",
+        "license": "MIT",
+        "description": "Object mapper"
+      },
+      {
+        "name": "Newtonsoft.Json.Schema",
+        "license": "AGPL-3.0",
+        "description": "JSON schema"
+      },
+      {
+        "name": "System.Linq.Dynamic.Core",
+        "license": "Apache-2.0",
+        "description": "Dynamic LINQ"
+      },
+      {
+        "name": "System.Reactive",
+        "license": "MIT",
+        "description": "Reactive extensions"
+      },
+      {
+        "name": "Nito.AsyncEx",
+        "license": "MIT",
+        "description": "Async helpers"
+      },
+      {
+        "name": "AsyncEnumerator",
+        "license": "MIT",
+        "description": "Async enumerable"
+      },
+      {
+        "name": "MiniProfiler.AspNetCore",
+        "license": "MIT",
+        "description": "Profiler"
+      },
+      {
+        "name": "BenchmarkDotNet.Diagnostics.Windows",
+        "license": "MIT",
+        "description": "Performance diagnostics"
+      },
+      {
+        "name": "NetEscapades.Configuration.Yaml",
+        "license": "MIT",
+        "description": "YAML config"
+      },
+      {
+        "name": "Microsoft.ApplicationInsights.AspNetCore",
+        "license": "MIT",
+        "description": "App monitoring"
+      },
+      {
+        "name": "Prometheus.Client",
+        "license": "MIT",
+        "description": "Prometheus metrics"
+      },
+      {
+        "name": "OpenTelemetry",
+        "license": "Apache-2.0",
+        "description": "Observability"
+      },
+      {
+        "name": "Jaeger",
+        "license": "Apache-2.0",
+        "description": "Distributed tracing"
+      }
+    ]
+  },
+  "ruby_gems": {
+    "ecosystem": "Ruby (RubyGems)",
+    "package_count": 100,
+    "dependencies": [
+      {
+        "name": "rails",
+        "license": "MIT",
+        "description": "Web framework"
+      },
+      {
+        "name": "rake",
+        "license": "MIT",
+        "description": "Build tool"
+      },
+      {
+        "name": "bundler",
+        "license": "MIT",
+        "description": "Dependency manager"
+      },
+      {
+        "name": "rspec-core",
+        "license": "MIT",
+        "description": "Testing framework"
+      },
+      {
+        "name": "rspec-rails",
+        "license": "MIT",
+        "description": "RSpec for Rails"
+      },
+      {
+        "name": "devise",
+        "license": "MIT",
+        "description": "Authentication"
+      },
+      {
+        "name": "puma",
+        "license": "BSD-3-Clause",
+        "description": "Web server"
+      },
+      {
+        "name": "unicorn",
+        "license": "GPL-2.0 OR Ruby",
+        "description": "HTTP server"
+      },
+      {
+        "name": "sidekiq",
+        "license": "LGPL-3.0",
+        "description": "Background jobs"
+      },
+      {
+        "name": "redis",
+        "license": "MIT",
+        "description": "Redis client"
+      },
+      {
+        "name": "pg",
+        "license": "BSD-2-Clause",
+        "description": "PostgreSQL driver"
+      },
+      {
+        "name": "mysql2",
+        "license": "MIT",
+        "description": "MySQL driver"
+      },
+      {
+        "name": "sqlite3",
+        "license": "BSD-3-Clause",
+        "description": "SQLite driver"
+      },
+      {
+        "name": "activerecord",
+        "license": "MIT",
+        "description": "ORM"
+      },
+      {
+        "name": "sequel",
+        "license": "MIT",
+        "description": "Database toolkit"
+      },
+      {
+        "name": "sinatra",
+        "license": "MIT",
+        "description": "Web DSL"
+      },
+      {
+        "name": "grape",
+        "license": "MIT",
+        "description": "REST API framework"
+      },
+      {
+        "name": "nokogiri",
+        "license": "MIT",
+        "description": "HTML/XML parser"
+      },
+      {
+        "name": "httparty",
+        "license": "MIT",
+        "description": "HTTP client"
+      },
+      {
+        "name": "faraday",
+        "license": "MIT",
+        "description": "HTTP client"
+      },
+      {
+        "name": "rest-client",
+        "license": "MIT",
+        "description": "HTTP client"
+      },
+      {
+        "name": "json",
+        "license": "Ruby",
+        "description": "JSON implementation"
+      },
+      {
+        "name": "oj",
+        "license": "MIT",
+        "description": "Fast JSON parser"
+      },
+      {
+        "name": "pry",
+        "license": "MIT",
+        "description": "REPL"
+      },
+      {
+        "name": "byebug",
+        "license": "BSD-2-Clause",
+        "description": "Debugger"
+      },
+      {
+        "name": "rubocop",
+        "license": "MIT",
+        "description": "Code analyzer"
+      },
+      {
+        "name": "factory_bot",
+        "license": "MIT",
+        "description": "Test fixtures"
+      },
+      {
+        "name": "faker",
+        "license": "MIT",
+        "description": "Fake data"
+      },
+      {
+        "name": "capybara",
+        "license": "MIT",
+        "description": "Integration testing"
+      },
+      {
+        "name": "minitest",
+        "license": "MIT",
+        "description": "Testing library"
+      },
+      {
+        "name": "simplecov",
+        "license": "MIT",
+        "description": "Code coverage"
+      },
+      {
+        "name": "vcr",
+        "license": "MIT",
+        "description": "HTTP mocking"
+      },
+      {
+        "name": "webmock",
+        "license": "MIT",
+        "description": "HTTP stubbing"
+      },
+      {
+        "name": "dotenv",
+        "license": "MIT",
+        "description": "Environment variables"
+      },
+      {
+        "name": "pry-byebug",
+        "license": "MIT",
+        "description": "Debugger integration"
+      },
+      {
+        "name": "carrierwave",
+        "license": "MIT",
+        "description": "File uploads"
+      },
+      {
+        "name": "paperclip",
+        "license": "MIT",
+        "description": "File attachment"
+      },
+      {
+        "name": "shrine",
+        "license": "MIT",
+        "description": "File uploads"
+      },
+      {
+        "name": "aws-sdk-s3",
+        "license": "Apache-2.0",
+        "description": "AWS S3 SDK"
+      },
+      {
+        "name": "fog-aws",
+        "license": "MIT",
+        "description": "AWS cloud library"
+      },
+      {
+        "name": "prawn",
+        "license": "GPL-2.0 OR GPL-3.0 OR Ruby",
+        "description": "PDF generation"
+      },
+      {
+        "name": "wicked_pdf",
+        "license": "MIT",
+        "description": "PDF from HTML"
+      },
+      {
+        "name": "axlsx",
+        "license": "MIT",
+        "description": "Excel generation"
+      },
+      {
+        "name": "roo",
+        "license": "MIT",
+        "description": "Spreadsheet reader"
+      },
+      {
+        "name": "kaminari",
+        "license": "MIT",
+        "description": "Pagination"
+      },
+      {
+        "name": "will_paginate",
+        "license": "MIT",
+        "description": "Pagination"
+      },
+      {
+        "name": "ransack",
+        "license": "MIT",
+        "description": "Searching/sorting"
+      },
+      {
+        "name": "pundit",
+        "license": "MIT",
+        "description": "Authorization"
+      },
+      {
+        "name": "cancancan",
+        "license": "MIT",
+        "description": "Authorization"
+      },
+      {
+        "name": "rolify",
+        "license": "MIT",
+        "description": "Role management"
+      },
+      {
+        "name": "jwt",
+        "license": "MIT",
+        "description": "JWT library"
+      },
+      {
+        "name": "bcrypt",
+        "license": "MIT",
+        "description": "Password hashing"
+      },
+      {
+        "name": "rack",
+        "license": "MIT",
+        "description": "Web server interface"
+      },
+      {
+        "name": "rack-cors",
+        "license": "MIT",
+        "description": "CORS middleware"
+      },
+      {
+        "name": "rack-attack",
+        "license": "MIT",
+        "description": "Rate limiting"
+      },
+      {
+        "name": "actioncable",
+        "license": "MIT",
+        "description": "WebSockets"
+      },
+      {
+        "name": "actionmailer",
+        "license": "MIT",
+        "description": "Email framework"
+      },
+      {
+        "name": "mail",
+        "license": "MIT",
+        "description": "Mail library"
+      },
+      {
+        "name": "premailer-rails",
+        "license": "BSD-3-Clause",
+        "description": "Email CSS inlining"
+      },
+      {
+        "name": "delayed_job",
+        "license": "MIT",
+        "description": "Background jobs"
+      },
+      {
+        "name": "resque",
+        "license": "MIT",
+        "description": "Background jobs"
+      },
+      {
+        "name": "whenever",
+        "license": "MIT",
+        "description": "Cron jobs"
+      },
+      {
+        "name": "rufus-scheduler",
+        "license": "MIT",
+        "description": "Job scheduler"
+      },
+      {
+        "name": "clockwork",
+        "license": "MIT",
+        "description": "Cron replacement"
+      },
+      {
+        "name": "jbuilder",
+        "license": "MIT",
+        "description": "JSON builder"
+      },
+      {
+        "name": "rabl",
+        "license": "MIT",
+        "description": "JSON/XML templating"
+      },
+      {
+        "name": "active_model_serializers",
+        "license": "MIT",
+        "description": "JSON serialization"
+      },
+      {
+        "name": "jsonapi-serializer",
+        "license": "Apache-2.0",
+        "description": "JSON:API serializer"
+      },
+      {
+        "name": "graphql",
+        "license": "MIT",
+        "description": "GraphQL"
+      },
+      {
+        "name": "graphql-ruby",
+        "license": "MIT",
+        "description": "GraphQL for Ruby"
+      },
+      {
+        "name": "redis-namespace",
+        "license": "MIT",
+        "description": "Redis namespacing"
+      },
+      {
+        "name": "connection_pool",
+        "license": "MIT",
+        "description": "Connection pooling"
+      },
+      {
+        "name": "dalli",
+        "license": "MIT",
+        "description": "Memcached client"
+      },
+      {
+        "name": "elasticsearch",
+        "license": "Apache-2.0",
+        "description": "Elasticsearch client"
+      },
+      {
+        "name": "searchkick",
+        "license": "MIT",
+        "description": "Search library"
+      },
+      {
+        "name": "chewy",
+        "license": "MIT",
+        "description": "Elasticsearch ODM"
+      },
+      {
+        "name": "friendly_id",
+        "license": "MIT",
+        "description": "Slugs and permalinks"
+      },
+      {
+        "name": "paranoia",
+        "license": "MIT",
+        "description": "Soft delete"
+      },
+      {
+        "name": "acts-as-taggable-on",
+        "license": "MIT",
+        "description": "Tagging"
+      },
+      {
+        "name": "paper_trail",
+        "license": "MIT",
+        "description": "Versioning"
+      },
+      {
+        "name": "audited",
+        "license": "MIT",
+        "description": "Audit logging"
+      },
+      {
+        "name": "state_machines-activerecord",
+        "license": "MIT",
+        "description": "State machines"
+      },
+      {
+        "name": "aasm",
+        "license": "MIT",
+        "description": "State machines"
+      },
+      {
+        "name": "dry-validation",
+        "license": "MIT",
+        "description": "Validation"
+      },
+      {
+        "name": "dry-types",
+        "license": "MIT",
+        "description": "Type system"
+      },
+      {
+        "name": "dry-struct",
+        "license": "MIT",
+        "description": "Value objects"
+      },
+      {
+        "name": "virtus",
+        "license": "MIT",
+        "description": "Attributes"
+      },
+      {
+        "name": "hashie",
+        "license": "MIT",
+        "description": "Hash extensions"
+      },
+      {
+        "name": "chronic",
+        "license": "MIT",
+        "description": "Natural language dates"
+      },
+      {
+        "name": "activesupport",
+        "license": "MIT",
+        "description": "Ruby extensions"
+      },
+      {
+        "name": "tzinfo",
+        "license": "MIT",
+        "description": "Timezone library"
+      },
+      {
+        "name": "i18n",
+        "license": "MIT",
+        "description": "Internationalization"
+      },
+      {
+        "name": "money",
+        "license": "MIT",
+        "description": "Money handling"
+      },
+      {
+        "name": "monetize",
+        "license": "MIT",
+        "description": "Money parsing"
+      },
+      {
+        "name": "benchmark-ips",
+        "license": "MIT",
+        "description": "Benchmarking"
+      },
+      {
+        "name": "rack-mini-profiler",
+        "license": "MIT",
+        "description": "Performance profiler"
+      },
+      {
+        "name": "bullet",
+        "license": "MIT",
+        "description": "N+1 query detection"
+      },
+      {
+        "name": "newrelic_rpm",
+        "license": "Apache-2.0",
+        "description": "Application monitoring"
+      },
+      {
+        "name": "sentry-ruby",
+        "license": "MIT",
+        "description": "Error tracking"
+      }
+    ]
+  },
+  "rust_crates": {
+    "ecosystem": "Rust (crates.io)",
+    "package_count": 100,
+    "dependencies": [
+      {
+        "name": "serde",
+        "license": "MIT OR Apache-2.0",
+        "description": "Serialization framework"
+      },
+      {
+        "name": "serde_json",
+        "license": "MIT OR Apache-2.0",
+        "description": "JSON serialization"
+      },
+      {
+        "name": "tokio",
+        "license": "MIT",
+        "description": "Async runtime"
+      },
+      {
+        "name": "async-trait",
+        "license": "MIT OR Apache-2.0",
+        "description": "Async traits"
+      },
+      {
+        "name": "futures",
+        "license": "MIT OR Apache-2.0",
+        "description": "Async abstractions"
+      },
+      {
+        "name": "clap",
+        "license": "MIT OR Apache-2.0",
+        "description": "CLI parser"
+      },
+      {
+        "name": "structopt",
+        "license": "MIT OR Apache-2.0",
+        "description": "CLI from structs"
+      },
+      {
+        "name": "reqwest",
+        "license": "MIT OR Apache-2.0",
+        "description": "HTTP client"
+      },
+      {
+        "name": "hyper",
+        "license": "MIT",
+        "description": "HTTP library"
+      },
+      {
+        "name": "actix-web",
+        "license": "MIT OR Apache-2.0",
+        "description": "Web framework"
+      },
+      {
+        "name": "axum",
+        "license": "MIT",
+        "description": "Web framework"
+      },
+      {
+        "name": "rocket",
+        "license": "MIT OR Apache-2.0",
+        "description": "Web framework"
+      },
+      {
+        "name": "warp",
+        "license": "MIT",
+        "description": "Web server"
+      },
+      {
+        "name": "tide",
+        "license": "MIT OR Apache-2.0",
+        "description": "Web framework"
+      },
+      {
+        "name": "diesel",
+        "license": "MIT OR Apache-2.0",
+        "description": "ORM"
+      },
+      {
+        "name": "sqlx",
+        "license": "MIT OR Apache-2.0",
+        "description": "SQL toolkit"
+      },
+      {
+        "name": "sea-orm",
+        "license": "MIT OR Apache-2.0",
+        "description": "Async ORM"
+      },
+      {
+        "name": "redis",
+        "license": "BSD-3-Clause",
+        "description": "Redis client"
+      },
+      {
+        "name": "mongodb",
+        "license": "Apache-2.0",
+        "description": "MongoDB driver"
+      },
+      {
+        "name": "tokio-postgres",
+        "license": "MIT OR Apache-2.0",
+        "description": "PostgreSQL client"
+      },
+      {
+        "name": "mysql_async",
+        "license": "MIT OR Apache-2.0",
+        "description": "MySQL client"
+      },
+      {
+        "name": "rusqlite",
+        "license": "MIT",
+        "description": "SQLite bindings"
+      },
+      {
+        "name": "log",
+        "license": "MIT OR Apache-2.0",
+        "description": "Logging facade"
+      },
+      {
+        "name": "env_logger",
+        "license": "MIT OR Apache-2.0",
+        "description": "Logger implementation"
+      },
+      {
+        "name": "tracing",
+        "license": "MIT",
+        "description": "Application tracing"
+      },
+      {
+        "name": "tracing-subscriber",
+        "license": "MIT",
+        "description": "Tracing utilities"
+      },
+      {
+        "name": "slog",
+        "license": "MPL-2.0 OR MIT OR Apache-2.0",
+        "description": "Structured logging"
+      },
+      {
+        "name": "anyhow",
+        "license": "MIT OR Apache-2.0",
+        "description": "Error handling"
+      },
+      {
+        "name": "thiserror",
+        "license": "MIT OR Apache-2.0",
+        "description": "Error derive macro"
+      },
+      {
+        "name": "eyre",
+        "license": "MIT OR Apache-2.0",
+        "description": "Error reporting"
+      },
+      {
+        "name": "regex",
+        "license": "MIT OR Apache-2.0",
+        "description": "Regular expressions"
+      },
+      {
+        "name": "lazy_static",
+        "license": "MIT OR Apache-2.0",
+        "description": "Lazy statics"
+      },
+      {
+        "name": "once_cell",
+        "license": "MIT OR Apache-2.0",
+        "description": "Single assignment"
+      },
+      {
+        "name": "rayon",
+        "license": "MIT OR Apache-2.0",
+        "description": "Data parallelism"
+      },
+      {
+        "name": "crossbeam",
+        "license": "MIT OR Apache-2.0",
+        "description": "Concurrency tools"
+      },
+      {
+        "name": "parking_lot",
+        "license": "MIT OR Apache-2.0",
+        "description": "Synchronization"
+      },
+      {
+        "name": "rand",
+        "license": "MIT OR Apache-2.0",
+        "description": "Random number generation"
+      },
+      {
+        "name": "uuid",
+        "license": "MIT OR Apache-2.0",
+        "description": "UUID generation"
+      },
+      {
+        "name": "chrono",
+        "license": "MIT OR Apache-2.0",
+        "description": "Date and time"
+      },
+      {
+        "name": "time",
+        "license": "MIT OR Apache-2.0",
+        "description": "Date/time library"
+      },
+      {
+        "name": "url",
+        "license": "MIT OR Apache-2.0",
+        "description": "URL parser"
+      },
+      {
+        "name": "bytes",
+        "license": "MIT",
+        "description": "Byte utilities"
+      },
+      {
+        "name": "toml",
+        "license": "MIT OR Apache-2.0",
+        "description": "TOML parser"
+      },
+      {
+        "name": "yaml-rust",
+        "license": "MIT OR Apache-2.0",
+        "description": "YAML parser"
+      },
+      {
+        "name": "config",
+        "license": "MIT OR Apache-2.0",
+        "description": "Configuration library"
+      },
+      {
+        "name": "dotenv",
+        "license": "MIT",
+        "description": "Environment variables"
+      },
+      {
+        "name": "base64",
+        "license": "MIT OR Apache-2.0",
+        "description": "Base64 encoding"
+      },
+      {
+        "name": "hex",
+        "license": "MIT OR Apache-2.0",
+        "description": "Hex encoding"
+      },
+      {
+        "name": "sha2",
+        "license": "MIT OR Apache-2.0",
+        "description": "SHA-2 hashing"
+      },
+      {
+        "name": "md5",
+        "license": "MIT OR Apache-2.0",
+        "description": "MD5 hashing"
+      },
+      {
+        "name": "ring",
+        "license": "ISC AND MIT AND OpenSSL",
+        "description": "Cryptography"
+      },
+      {
+        "name": "rustls",
+        "license": "Apache-2.0 OR ISC OR MIT",
+        "description": "TLS library"
+      },
+      {
+        "name": "jsonwebtoken",
+        "license": "MIT",
+        "description": "JWT library"
+      },
+      {
+        "name": "bcrypt",
+        "license": "MIT",
+        "description": "Password hashing"
+      },
+      {
+        "name": "argon2",
+        "license": "MIT OR Apache-2.0",
+        "description": "Password hashing"
+      },
+      {
+        "name": "validator",
+        "license": "MIT",
+        "description": "Validation library"
+      },
+      {
+        "name": "tonic",
+        "license": "MIT",
+        "description": "gRPC framework"
+      },
+      {
+        "name": "prost",
+        "license": "Apache-2.0",
+        "description": "Protocol Buffers"
+      },
+      {
+        "name": "tower",
+        "license": "MIT",
+        "description": "Service library"
+      },
+      {
+        "name": "tower-http",
+        "license": "MIT",
+        "description": "HTTP middleware"
+      },
+      {
+        "name": "async-std",
+        "license": "MIT OR Apache-2.0",
+        "description": "Async runtime"
+      },
+      {
+        "name": "smol",
+        "license": "MIT OR Apache-2.0",
+        "description": "Async runtime"
+      },
+      {
+        "name": "flume",
+        "license": "MIT OR Apache-2.0",
+        "description": "Async channels"
+      },
+      {
+        "name": "dashmap",
+        "license": "MIT",
+        "description": "Concurrent hashmap"
+      },
+      {
+        "name": "im",
+        "license": "MPL-2.0+",
+        "description": "Immutable collections"
+      },
+      {
+        "name": "petgraph",
+        "license": "MIT OR Apache-2.0",
+        "description": "Graph data structure"
+      },
+      {
+        "name": "ndarray",
+        "license": "MIT OR Apache-2.0",
+        "description": "N-dimensional arrays"
+      },
+      {
+        "name": "nalgebra",
+        "license": "Apache-2.0",
+        "description": "Linear algebra"
+      },
+      {
+        "name": "num",
+        "license": "MIT OR Apache-2.0",
+        "description": "Numeric types"
+      },
+      {
+        "name": "num-traits",
+        "license": "MIT OR Apache-2.0",
+        "description": "Numeric traits"
+      },
+      {
+        "name": "image",
+        "license": "MIT",
+        "description": "Image processing"
+      },
+      {
+        "name": "imageproc",
+        "license": "MIT",
+        "description": "Image processing"
+      },
+      {
+        "name": "plotters",
+        "license": "MIT",
+        "description": "Data visualization"
+      },
+      {
+        "name": "csv",
+        "license": "MIT OR Unlicense",
+        "description": "CSV parsing"
+      },
+      {
+        "name": "polars",
+        "license": "MIT",
+        "description": "DataFrame library"
+      },
+      {
+        "name": "arrow",
+        "license": "Apache-2.0",
+        "description": "Columnar format"
+      },
+      {
+        "name": "quick-xml",
+        "license": "MIT",
+        "description": "XML parser"
+      },
+      {
+        "name": "scraper",
+        "license": "MIT OR Apache-2.0",
+        "description": "HTML parsing"
+      },
+      {
+        "name": "select",
+        "license": "MIT",
+        "description": "HTML scraping"
+      },
+      {
+        "name": "indicatif",
+        "license": "MIT",
+        "description": "Progress bars"
+      },
+      {
+        "name": "colored",
+        "license": "MPL-2.0",
+        "description": "Terminal colors"
+      },
+      {
+        "name": "console",
+        "license": "MIT",
+        "description": "Terminal utilities"
+      },
+      {
+        "name": "dialoguer",
+        "license": "MIT",
+        "description": "CLI prompts"
+      },
+      {
+        "name": "cargo",
+        "license": "MIT OR Apache-2.0",
+        "description": "Package manager lib"
+      },
+      {
+        "name": "walkdir",
+        "license": "MIT OR Unlicense",
+        "description": "Directory walking"
+      },
+      {
+        "name": "glob",
+        "license": "MIT OR Apache-2.0",
+        "description": "Glob patterns"
+      },
+      {
+        "name": "notify",
+        "license": "CC0-1.0 OR Artistic-2.0",
+        "description": "File watching"
+      },
+      {
+        "name": "zip",
+        "license": "MIT",
+        "description": "ZIP archives"
+      },
+      {
+        "name": "tar",
+        "license": "MIT OR Apache-2.0",
+        "description": "TAR archives"
+      },
+      {
+        "name": "flate2",
+        "license": "MIT OR Apache-2.0",
+        "description": "Compression"
+      },
+      {
+        "name": "criterion",
+        "license": "MIT OR Apache-2.0",
+        "description": "Benchmarking"
+      },
+      {
+        "name": "proptest",
+        "license": "MIT OR Apache-2.0",
+        "description": "Property testing"
+      },
+      {
+        "name": "quickcheck",
+        "license": "MIT OR Unlicense",
+        "description": "Property testing"
+      },
+      {
+        "name": "mockall",
+        "license": "MIT OR Apache-2.0",
+        "description": "Mocking library"
+      },
+      {
+        "name": "wiremock",
+        "license": "MIT OR Apache-2.0",
+        "description": "HTTP mocking"
+      },
+      {
+        "name": "rstest",
+        "license": "MIT OR Apache-2.0",
+        "description": "Test fixtures"
+      },
+      {
+        "name": "insta",
+        "license": "Apache-2.0",
+        "description": "Snapshot testing"
+      },
+      {
+        "name": "pretty_assertions",
+        "license": "MIT OR Apache-2.0",
+        "description": "Better assertions"
+      }
+    ]
+  },
+  "go_modules": {
+    "ecosystem": "Go (Go Modules)",
+    "package_count": 100,
+    "dependencies": [
+      {
+        "name": "gin",
+        "license": "MIT",
+        "description": "Web framework"
+      },
+      {
+        "name": "echo",
+        "license": "MIT",
+        "description": "Web framework"
+      },
+      {
+        "name": "fiber",
+        "license": "MIT",
+        "description": "Web framework"
+      },
+      {
+        "name": "chi",
+        "license": "MIT",
+        "description": "HTTP router"
+      },
+      {
+        "name": "gorilla/mux",
+        "license": "BSD-3-Clause",
+        "description": "HTTP router"
+      },
+      {
+        "name": "httprouter",
+        "license": "BSD-3-Clause",
+        "description": "HTTP router"
+      },
+      {
+        "name": "gorm",
+        "license": "MIT",
+        "description": "ORM library"
+      },
+      {
+        "name": "sqlx",
+        "license": "MIT",
+        "description": "SQL extensions"
+      },
+      {
+        "name": "ent",
+        "license": "Apache-2.0",
+        "description": "Entity framework"
+      },
+      {
+        "name": "pgx",
+        "license": "MIT",
+        "description": "PostgreSQL driver"
+      },
+      {
+        "name": "go-sql-driver/mysql",
+        "license": "MPL-2.0",
+        "description": "MySQL driver"
+      },
+      {
+        "name": "go-sqlite3",
+        "license": "MIT",
+        "description": "SQLite driver"
+      },
+      {
+        "name": "mongo-driver",
+        "license": "Apache-2.0",
+        "description": "MongoDB driver"
+      },
+      {
+        "name": "redis/go-redis",
+        "license": "BSD-2-Clause",
+        "description": "Redis client"
+      },
+      {
+        "name": "go-redis/redis",
+        "license": "BSD-2-Clause",
+        "description": "Redis client"
+      },
+      {
+        "name": "elasticsearch/go-elasticsearch",
+        "license": "Apache-2.0",
+        "description": "Elasticsearch client"
+      },
+      {
+        "name": "viper",
+        "license": "MIT",
+        "description": "Configuration"
+      },
+      {
+        "name": "cobra",
+        "license": "Apache-2.0",
+        "description": "CLI framework"
+      },
+      {
+        "name": "pflag",
+        "license": "BSD-3-Clause",
+        "description": "Flag parsing"
+      },
+      {
+        "name": "urfave/cli",
+        "license": "MIT",
+        "description": "CLI library"
+      },
+      {
+        "name": "logrus",
+        "license": "MIT",
+        "description": "Structured logger"
+      },
+      {
+        "name": "zap",
+        "license": "MIT",
+        "description": "Fast logger"
+      },
+      {
+        "name": "zerolog",
+        "license": "MIT",
+        "description": "Zero allocation logger"
+      },
+      {
+        "name": "testify",
+        "license": "MIT",
+        "description": "Testing toolkit"
+      },
+      {
+        "name": "gomock",
+        "license": "Apache-2.0",
+        "description": "Mocking framework"
+      },
+      {
+        "name": "mockery",
+        "license": "BSD-3-Clause",
+        "description": "Mock generator"
+      },
+      {
+        "name": "ginkgo",
+        "license": "MIT",
+        "description": "BDD testing"
+      },
+      {
+        "name": "gomega",
+        "license": "MIT",
+        "description": "Matcher library"
+      },
+      {
+        "name": "go-sqlmock",
+        "license": "BSD-3-Clause",
+        "description": "SQL mocking"
+      },
+      {
+        "name": "httptest",
+        "license": "BSD-3-Clause",
+        "description": "HTTP testing"
+      },
+      {
+        "name": "validator",
+        "license": "MIT",
+        "description": "Struct validation"
+      },
+      {
+        "name": "govalidator",
+        "license": "MIT",
+        "description": "String validation"
+      },
+      {
+        "name": "jwt-go",
+        "license": "MIT",
+        "description": "JWT library"
+      },
+      {
+        "name": "golang-jwt/jwt",
+        "license": "MIT",
+        "description": "JWT library"
+      },
+      {
+        "name": "oauth2",
+        "license": "BSD-3-Clause",
+        "description": "OAuth2 client"
+      },
+      {
+        "name": "bcrypt",
+        "license": "BSD-3-Clause",
+        "description": "Password hashing"
+      },
+      {
+        "name": "gorilla/sessions",
+        "license": "BSD-3-Clause",
+        "description": "Session management"
+      },
+      {
+        "name": "gorilla/websocket",
+        "license": "BSD-2-Clause",
+        "description": "WebSocket library"
+      },
+      {
+        "name": "melody",
+        "license": "BSD-2-Clause",
+        "description": "WebSocket framework"
+      },
+      {
+        "name": "grpc-go",
+        "license": "Apache-2.0",
+        "description": "gRPC framework"
+      },
+      {
+        "name": "protobuf",
+        "license": "BSD-3-Clause",
+        "description": "Protocol Buffers"
+      },
+      {
+        "name": "protoc-gen-go",
+        "license": "BSD-3-Clause",
+        "description": "Protobuf generator"
+      },
+      {
+        "name": "graphql-go",
+        "license": "MIT",
+        "description": "GraphQL library"
+      },
+      {
+        "name": "gqlgen",
+        "license": "MIT",
+        "description": "GraphQL server"
+      },
+      {
+        "name": "chi/cors",
+        "license": "MIT",
+        "description": "CORS middleware"
+      },
+      {
+        "name": "rs/cors",
+        "license": "MIT",
+        "description": "CORS handler"
+      },
+      {
+        "name": "gin-cors",
+        "license": "MIT",
+        "description": "Gin CORS"
+      },
+      {
+        "name": "resty",
+        "license": "MIT",
+        "description": "HTTP client"
+      },
+      {
+        "name": "req",
+        "license": "MIT",
+        "description": "HTTP client"
+      },
+      {
+        "name": "gentleman",
+        "license": "MIT",
+        "description": "HTTP client"
+      },
+      {
+        "name": "colly",
+        "license": "Apache-2.0",
+        "description": "Web scraping"
+      },
+      {
+        "name": "goquery",
+        "license": "BSD-3-Clause",
+        "description": "HTML parsing"
+      },
+      {
+        "name": "xmlpath",
+        "license": "BSD-3-Clause",
+        "description": "XML parsing"
+      },
+      {
+        "name": "encoding/json",
+        "license": "BSD-3-Clause",
+        "description": "JSON standard"
+      },
+      {
+        "name": "jsoniter",
+        "license": "MIT",
+        "description": "Fast JSON"
+      },
+      {
+        "name": "gjson",
+        "license": "MIT",
+        "description": "JSON parser"
+      },
+      {
+        "name": "easyjson",
+        "license": "MIT",
+        "description": "JSON serializer"
+      },
+      {
+        "name": "yaml.v3",
+        "license": "MIT OR Apache-2.0",
+        "description": "YAML parser"
+      },
+      {
+        "name": "toml",
+        "license": "MIT",
+        "description": "TOML parser"
+      },
+      {
+        "name": "env",
+        "license": "MIT",
+        "description": "Environment parsing"
+      },
+      {
+        "name": "godotenv",
+        "license": "MIT",
+        "description": "Load .env files"
+      },
+      {
+        "name": "uuid",
+        "license": "BSD-3-Clause",
+        "description": "UUID generation"
+      },
+      {
+        "name": "google/uuid",
+        "license": "BSD-3-Clause",
+        "description": "UUID library"
+      },
+      {
+        "name": "shortid",
+        "license": "MIT",
+        "description": "Short ID generator"
+      },
+      {
+        "name": "ulid",
+        "license": "Apache-2.0",
+        "description": "ULID generator"
+      },
+      {
+        "name": "time",
+        "license": "BSD-3-Clause",
+        "description": "Time extensions"
+      },
+      {
+        "name": "now",
+        "license": "MIT",
+        "description": "Time toolkit"
+      },
+      {
+        "name": "carbon",
+        "license": "MIT",
+        "description": "DateTime library"
+      },
+      {
+        "name": "cron",
+        "license": "MIT",
+        "description": "Cron library"
+      },
+      {
+        "name": "gocron",
+        "license": "MIT",
+        "description": "Job scheduler"
+      },
+      {
+        "name": "asynq",
+        "license": "MIT",
+        "description": "Task queue"
+      },
+      {
+        "name": "machinery",
+        "license": "MIT",
+        "description": "Async task queue"
+      },
+      {
+        "name": "rate",
+        "license": "BSD-3-Clause",
+        "description": "Rate limiting"
+      },
+      {
+        "name": "tollbooth",
+        "license": "MIT",
+        "description": "Rate limiter"
+      },
+      {
+        "name": "limiter",
+        "license": "MIT",
+        "description": "Rate limiting"
+      },
+      {
+        "name": "go-cache",
+        "license": "MIT",
+        "description": "In-memory cache"
+      },
+      {
+        "name": "bigcache",
+        "license": "Apache-2.0",
+        "description": "Fast cache"
+      },
+      {
+        "name": "freecache",
+        "license": "MIT",
+        "description": "Cache library"
+      },
+      {
+        "name": "groupcache",
+        "license": "Apache-2.0",
+        "description": "Distributed cache"
+      },
+      {
+        "name": "aws-sdk-go",
+        "license": "Apache-2.0",
+        "description": "AWS SDK"
+      },
+      {
+        "name": "minio-go",
+        "license": "Apache-2.0",
+        "description": "S3 client"
+      },
+      {
+        "name": "azure-sdk-for-go",
+        "license": "MIT",
+        "description": "Azure SDK"
+      },
+      {
+        "name": "google-cloud-go",
+        "license": "Apache-2.0",
+        "description": "GCP SDK"
+      },
+      {
+        "name": "stripe-go",
+        "license": "MIT",
+        "description": "Stripe API"
+      },
+      {
+        "name": "twilio-go",
+        "license": "MIT",
+        "description": "Twilio API"
+      },
+      {
+        "name": "gomail",
+        "license": "MIT",
+        "description": "Email library"
+      },
+      {
+        "name": "email",
+        "license": "MIT",
+        "description": "Email package"
+      },
+      {
+        "name": "sendgrid-go",
+        "license": "MIT",
+        "description": "SendGrid API"
+      },
+      {
+        "name": "excelize",
+        "license": "BSD-3-Clause",
+        "description": "Excel library"
+      },
+      {
+        "name": "go-pdf",
+        "license": "MIT",
+        "description": "PDF generation"
+      },
+      {
+        "name": "imaging",
+        "license": "MIT",
+        "description": "Image processing"
+      },
+      {
+        "name": "bimg",
+        "license": "MIT",
+        "description": "Image manipulation"
+      },
+      {
+        "name": "resize",
+        "license": "MIT",
+        "description": "Image resizing"
+      },
+      {
+        "name": "chart",
+        "license": "MIT",
+        "description": "Chart generation"
+      },
+      {
+        "name": "go-humanize",
+        "license": "MIT",
+        "description": "Human-friendly data"
+      },
+      {
+        "name": "cast",
+        "license": "MIT",
+        "description": "Type conversion"
+      },
+      {
+        "name": "mapstructure",
+        "license": "MIT",
+        "description": "Struct decoding"
+      },
+      {
+        "name": "copier",
+        "license": "MIT",
+        "description": "Struct copying"
+      }
+    ]
+  },
+  "php_composer": {
+    "ecosystem": "PHP (Composer)",
+    "package_count": 100,
+    "dependencies": [
+      {
+        "name": "symfony/console",
+        "license": "MIT",
+        "description": "Console component"
+      },
+      {
+        "name": "symfony/http-foundation",
+        "license": "MIT",
+        "description": "HTTP abstraction"
+      },
+      {
+        "name": "symfony/http-kernel",
+        "license": "MIT",
+        "description": "HTTP kernel"
+      },
+      {
+        "name": "symfony/routing",
+        "license": "MIT",
+        "description": "Routing component"
+      },
+      {
+        "name": "symfony/event-dispatcher",
+        "license": "MIT",
+        "description": "Event dispatcher"
+      },
+      {
+        "name": "laravel/framework",
+        "license": "MIT",
+        "description": "Laravel framework"
+      },
+      {
+        "name": "illuminate/support",
+        "license": "MIT",
+        "description": "Laravel support"
+      },
+      {
+        "name": "illuminate/database",
+        "license": "MIT",
+        "description": "Laravel database"
+      },
+      {
+        "name": "illuminate/console",
+        "license": "MIT",
+        "description": "Laravel console"
+      },
+      {
+        "name": "doctrine/orm",
+        "license": "MIT",
+        "description": "ORM library"
+      },
+      {
+        "name": "doctrine/dbal",
+        "license": "MIT",
+        "description": "Database abstraction"
+      },
+      {
+        "name": "doctrine/collections",
+        "license": "MIT",
+        "description": "Collections library"
+      },
+      {
+        "name": "guzzlehttp/guzzle",
+        "license": "MIT",
+        "description": "HTTP client"
+      },
+      {
+        "name": "monolog/monolog",
+        "license": "MIT",
+        "description": "Logging library"
+      },
+      {
+        "name": "phpunit/phpunit",
+        "license": "BSD-3-Clause",
+        "description": "Testing framework"
+      },
+      {
+        "name": "mockery/mockery",
+        "license": "BSD-3-Clause",
+        "description": "Mocking library"
+      },
+      {
+        "name": "phpspec/prophecy",
+        "license": "MIT",
+        "description": "Mocking framework"
+      },
+      {
+        "name": "twig/twig",
+        "license": "BSD-3-Clause",
+        "description": "Template engine"
+      },
+      {
+        "name": "league/flysystem",
+        "license": "MIT",
+        "description": "Filesystem abstraction"
+      },
+      {
+        "name": "vlucas/phpdotenv",
+        "license": "BSD-3-Clause",
+        "description": "Environment loader"
+      },
+      {
+        "name": "ramsey/uuid",
+        "license": "MIT",
+        "description": "UUID library"
+      },
+      {
+        "name": "nesbot/carbon",
+        "license": "MIT",
+        "description": "DateTime library"
+      },
+      {
+        "name": "psr/log",
+        "license": "MIT",
+        "description": "Logging interface"
+      },
+      {
+        "name": "psr/http-message",
+        "license": "MIT",
+        "description": "HTTP messages"
+      },
+      {
+        "name": "psr/cache",
+        "license": "MIT",
+        "description": "Caching interface"
+      },
+      {
+        "name": "psr/container",
+        "license": "MIT",
+        "description": "Container interface"
+      },
+      {
+        "name": "psr/event-dispatcher",
+        "license": "MIT",
+        "description": "Event dispatcher"
+      },
+      {
+        "name": "php-di/php-di",
+        "license": "MIT",
+        "description": "Dependency injection"
+      },
+      {
+        "name": "league/container",
+        "license": "MIT",
+        "description": "DI container"
+      },
+      {
+        "name": "swiftmailer/swiftmailer",
+        "license": "MIT",
+        "description": "Email library"
+      },
+      {
+        "name": "phpmailer/phpmailer",
+        "license": "LGPL-2.1",
+        "description": "Email library"
+      },
+      {
+        "name": "symfony/mailer",
+        "license": "MIT",
+        "description": "Mailer component"
+      },
+      {
+        "name": "predis/predis",
+        "license": "MIT",
+        "description": "Redis client"
+      },
+      {
+        "name": "phpredis/phpredis",
+        "license": "PHP-3.01",
+        "description": "Redis extension"
+      },
+      {
+        "name": "mongodb/mongodb",
+        "license": "Apache-2.0",
+        "description": "MongoDB driver"
+      },
+      {
+        "name": "aws/aws-sdk-php",
+        "license": "Apache-2.0",
+        "description": "AWS SDK"
+      },
+      {
+        "name": "google/cloud",
+        "license": "Apache-2.0",
+        "description": "Google Cloud SDK"
+      },
+      {
+        "name": "stripe/stripe-php",
+        "license": "MIT",
+        "description": "Stripe API"
+      },
+      {
+        "name": "phpoffice/phpspreadsheet",
+        "license": "MIT",
+        "description": "Spreadsheet library"
+      },
+      {
+        "name": "phpoffice/phpword",
+        "license": "LGPL-3.0",
+        "description": "Word documents"
+      },
+      {
+        "name": "dompdf/dompdf",
+        "license": "LGPL-2.1",
+        "description": "PDF generator"
+      },
+      {
+        "name": "mpdf/mpdf",
+        "license": "GPL-2.0",
+        "description": "PDF library"
+      },
+      {
+        "name": "tecnickcom/tcpdf",
+        "license": "LGPL-3.0",
+        "description": "PDF library"
+      },
+      {
+        "name": "intervention/image",
+        "license": "MIT",
+        "description": "Image manipulation"
+      },
+      {
+        "name": "imagine/imagine",
+        "license": "MIT",
+        "description": "Image library"
+      },
+      {
+        "name": "fabpot/goutte",
+        "license": "MIT",
+        "description": "Web scraping"
+      },
+      {
+        "name": "symfony/dom-crawler",
+        "license": "MIT",
+        "description": "DOM crawler"
+      },
+      {
+        "name": "symfony/css-selector",
+        "license": "MIT",
+        "description": "CSS selectors"
+      },
+      {
+        "name": "egulias/email-validator",
+        "license": "MIT",
+        "description": "Email validation"
+      },
+      {
+        "name": "respect/validation",
+        "license": "MIT",
+        "description": "Validation library"
+      },
+      {
+        "name": "symfony/validator",
+        "license": "MIT",
+        "description": "Validator component"
+      },
+      {
+        "name": "firebase/php-jwt",
+        "license": "BSD-3-Clause",
+        "description": "JWT library"
+      },
+      {
+        "name": "lcobucci/jwt",
+        "license": "BSD-3-Clause",
+        "description": "JWT library"
+      },
+      {
+        "name": "league/oauth2-server",
+        "license": "MIT",
+        "description": "OAuth2 server"
+      },
+      {
+        "name": "league/oauth2-client",
+        "license": "MIT",
+        "description": "OAuth2 client"
+      },
+      {
+        "name": "robrichards/xmlseclibs",
+        "license": "BSD-3-Clause",
+        "description": "XML security"
+      },
+      {
+        "name": "league/commonmark",
+        "license": "BSD-3-Clause",
+        "description": "Markdown parser"
+      },
+      {
+        "name": "erusev/parsedown",
+        "license": "MIT",
+        "description": "Markdown parser"
+      },
+      {
+        "name": "symfony/yaml",
+        "license": "MIT",
+        "description": "YAML component"
+      },
+      {
+        "name": "mustache/mustache",
+        "license": "MIT",
+        "description": "Template engine"
+      },
+      {
+        "name": "smarty/smarty",
+        "license": "LGPL-3.0",
+        "description": "Template engine"
+      },
+      {
+        "name": "league/fractal",
+        "license": "MIT",
+        "description": "Data transformation"
+      },
+      {
+        "name": "jms/serializer",
+        "license": "MIT",
+        "description": "Serialization library"
+      },
+      {
+        "name": "api-platform/core",
+        "license": "MIT",
+        "description": "REST/GraphQL framework"
+      },
+      {
+        "name": "slim/slim",
+        "license": "MIT",
+        "description": "Micro framework"
+      },
+      {
+        "name": "cakephp/cakephp",
+        "license": "MIT",
+        "description": "Web framework"
+      },
+      {
+        "name": "codeigniter/framework",
+        "license": "MIT",
+        "description": "Web framework"
+      },
+      {
+        "name": "yiisoft/yii2",
+        "license": "BSD-3-Clause",
+        "description": "Web framework"
+      },
+      {
+        "name": "zendframework/zend-mvc",
+        "license": "BSD-3-Clause",
+        "description": "MVC framework"
+      },
+      {
+        "name": "guzzlehttp/promises",
+        "license": "MIT",
+        "description": "Promises library"
+      },
+      {
+        "name": "guzzlehttp/psr7",
+        "license": "MIT",
+        "description": "PSR-7 implementation"
+      },
+      {
+        "name": "symfony/process",
+        "license": "MIT",
+        "description": "Process component"
+      },
+      {
+        "name": "symfony/filesystem",
+        "license": "MIT",
+        "description": "Filesystem component"
+      },
+      {
+        "name": "symfony/finder",
+        "license": "MIT",
+        "description": "File finder"
+      },
+      {
+        "name": "symfony/translation",
+        "license": "MIT",
+        "description": "Translation component"
+      },
+      {
+        "name": "symfony/var-dumper",
+        "license": "MIT",
+        "description": "Variable dumper"
+      },
+      {
+        "name": "symfony/cache",
+        "license": "MIT",
+        "description": "Caching component"
+      },
+      {
+        "name": "symfony/security-core",
+        "license": "MIT",
+        "description": "Security core"
+      },
+      {
+        "name": "symfony/serializer",
+        "license": "MIT",
+        "description": "Serializer component"
+      },
+      {
+        "name": "doctrine/cache",
+        "license": "MIT",
+        "description": "Caching library"
+      },
+      {
+        "name": "doctrine/annotations",
+        "license": "MIT",
+        "description": "Docblock annotations"
+      },
+      {
+        "name": "doctrine/inflector",
+        "license": "MIT",
+        "description": "String inflection"
+      },
+      {
+        "name": "doctrine/lexer",
+        "license": "MIT",
+        "description": "Lexer library"
+      },
+      {
+        "name": "fzaninotto/faker",
+        "license": "MIT",
+        "description": "Fake data generator"
+      },
+      {
+        "name": "fakerphp/faker",
+        "license": "MIT",
+        "description": "Fake data generator"
+      },
+      {
+        "name": "beberlei/assert",
+        "license": "BSD-2-Clause",
+        "description": "Assertion library"
+      },
+      {
+        "name": "webmozart/assert",
+        "license": "MIT",
+        "description": "Assertion library"
+      },
+      {
+        "name": "brick/math",
+        "license": "MIT",
+        "description": "Arbitrary precision math"
+      },
+      {
+        "name": "moneyphp/money",
+        "license": "MIT",
+        "description": "Money library"
+      },
+      {
+        "name": "league/uri",
+        "license": "MIT",
+        "description": "URI manipulation"
+      },
+      {
+        "name": "ralouphie/getallheaders",
+        "license": "MIT",
+        "description": "Get all headers"
+      },
+      {
+        "name": "php-fig/http-message-util",
+        "license": "MIT",
+        "description": "HTTP utilities"
+      },
+      {
+        "name": "filp/whoops",
+        "license": "MIT",
+        "description": "Error handler"
+      },
+      {
+        "name": "sentry/sentry",
+        "license": "BSD-3-Clause",
+        "description": "Error tracking"
+      },
+      {
+        "name": "bugsnag/bugsnag",
+        "license": "MIT",
+        "description": "Error monitoring"
+      },
+      {
+        "name": "phpseclib/phpseclib",
+        "license": "MIT",
+        "description": "Security library"
+      },
+      {
+        "name": "league/csv",
+        "license": "MIT",
+        "description": "CSV library"
+      },
+      {
+        "name": "league/pipeline",
+        "license": "MIT",
+        "description": "Pipeline pattern"
+      }
+    ]
+  },
+  "license_summary": {
+    "most_common_licenses": [
+      {
+        "license": "MIT",
+        "percentage": "~65%",
+        "description": "Most permissive, widely used"
+      },
+      {
+        "license": "Apache-2.0",
+        "percentage": "~20%",
+        "description": "Permissive with patent grant"
+      },
+      {
+        "license": "BSD-3-Clause",
+        "percentage": "~8%",
+        "description": "Permissive with attribution"
+      },
+      {
+        "license": "ISC",
+        "percentage": "~2%",
+        "description": "Simplified permissive"
+      },
+      {
+        "license": "GPL/LGPL",
+        "percentage": "~3%",
+        "description": "Copyleft licenses"
+      },
+      {
+        "license": "MPL-2.0",
+        "percentage": "~1%",
+        "description": "Weak copyleft"
+      },
+      {
+        "license": "Other",
+        "percentage": "~1%",
+        "description": "Various other licenses"
+      }
+    ],
+    "license_categories": {
+      "permissive": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-2-Clause",
+        "BSD-3-Clause",
+        "ISC",
+        "0BSD",
+        "Unlicense"
+      ],
+      "weak_copyleft": [
+        "LGPL-2.1",
+        "LGPL-3.0",
+        "MPL-2.0",
+        "EPL-1.0",
+        "EPL-2.0"
+      ],
+      "strong_copyleft": [
+        "GPL-2.0",
+        "GPL-3.0",
+        "AGPL-3.0"
+      ],
+      "dual_license_common": [
+        "MIT OR Apache-2.0",
+        "MIT OR GPL-2.0",
+        "Apache-2.0 OR BSD-3-Clause"
+      ]
+    }
+  },
+  "cpp_vcpkg_conan": {
+    "ecosystem": "C++ (vcpkg/Conan/CMake)",
+    "package_count": 100,
+    "dependencies": [
+      {
+        "name": "boost",
+        "license": "BSL-1.0",
+        "description": "Comprehensive C++ libraries"
+      },
+      {
+        "name": "fmt",
+        "license": "MIT",
+        "description": "Modern formatting library"
+      },
+      {
+        "name": "spdlog",
+        "license": "MIT",
+        "description": "Fast logging library"
+      },
+      {
+        "name": "catch2",
+        "license": "BSL-1.0",
+        "description": "Testing framework"
+      },
+      {
+        "name": "gtest",
+        "license": "BSD-3-Clause",
+        "description": "Google Test framework"
+      },
+      {
+        "name": "benchmark",
+        "license": "Apache-2.0",
+        "description": "Microbenchmark library"
+      },
+      {
+        "name": "abseil",
+        "license": "Apache-2.0",
+        "description": "Google C++ library"
+      },
+      {
+        "name": "eigen",
+        "license": "MPL-2.0",
+        "description": "Linear algebra library"
+      },
+      {
+        "name": "opencv",
+        "license": "Apache-2.0",
+        "description": "Computer vision library"
+      },
+      {
+        "name": "protobuf",
+        "license": "BSD-3-Clause",
+        "description": "Protocol Buffers"
+      },
+      {
+        "name": "grpc",
+        "license": "Apache-2.0",
+        "description": "RPC framework"
+      },
+      {
+        "name": "nlohmann-json",
+        "license": "MIT",
+        "description": "JSON library"
+      },
+      {
+        "name": "rapidjson",
+        "license": "MIT",
+        "description": "Fast JSON parser"
+      },
+      {
+        "name": "jsoncpp",
+        "license": "MIT",
+        "description": "JSON library"
+      },
+      {
+        "name": "yaml-cpp",
+        "license": "MIT",
+        "description": "YAML parser"
+      },
+      {
+        "name": "tinyxml2",
+        "license": "Zlib",
+        "description": "XML parser"
+      },
+      {
+        "name": "pugixml",
+        "license": "MIT",
+        "description": "XML parser"
+      },
+      {
+        "name": "libxml2",
+        "license": "MIT",
+        "description": "XML C parser"
+      },
+      {
+        "name": "sqlite3",
+        "license": "Public Domain",
+        "description": "Embedded database"
+      },
+      {
+        "name": "libpq",
+        "license": "PostgreSQL",
+        "description": "PostgreSQL C library"
+      },
+      {
+        "name": "mysql-connector-cpp",
+        "license": "GPL-2.0 WITH Universal-FOSS-exception",
+        "description": "MySQL connector"
+      },
+      {
+        "name": "sqlitecpp",
+        "license": "MIT",
+        "description": "SQLite C++ wrapper"
+      },
+      {
+        "name": "redis-plus-plus",
+        "license": "Apache-2.0",
+        "description": "Redis C++ client"
+      },
+      {
+        "name": "mongocxx",
+        "license": "Apache-2.0",
+        "description": "MongoDB C++ driver"
+      },
+      {
+        "name": "curl",
+        "license": "curl",
+        "description": "HTTP client library"
+      },
+      {
+        "name": "cpr",
+        "license": "MIT",
+        "description": "C++ Requests"
+      },
+      {
+        "name": "restclient-cpp",
+        "license": "MIT",
+        "description": "REST client"
+      },
+      {
+        "name": "cpp-httplib",
+        "license": "MIT",
+        "description": "HTTP library"
+      },
+      {
+        "name": "poco",
+        "license": "BSL-1.0",
+        "description": "Network and application"
+      },
+      {
+        "name": "asio",
+        "license": "BSL-1.0",
+        "description": "Async I/O library"
+      },
+      {
+        "name": "libevent",
+        "license": "BSD-3-Clause",
+        "description": "Event notification"
+      },
+      {
+        "name": "libuv",
+        "license": "MIT",
+        "description": "Async I/O"
+      },
+      {
+        "name": "zmq",
+        "license": "MPL-2.0",
+        "description": "ZeroMQ messaging"
+      },
+      {
+        "name": "nng",
+        "license": "MIT",
+        "description": "Nanomsg-next-gen"
+      },
+      {
+        "name": "websocketpp",
+        "license": "BSD-3-Clause",
+        "description": "WebSocket library"
+      },
+      {
+        "name": "openssl",
+        "license": "Apache-2.0",
+        "description": "Cryptography and SSL/TLS"
+      },
+      {
+        "name": "mbedtls",
+        "license": "Apache-2.0",
+        "description": "Crypto library"
+      },
+      {
+        "name": "libsodium",
+        "license": "ISC",
+        "description": "Crypto library"
+      },
+      {
+        "name": "cryptopp",
+        "license": "BSL-1.0",
+        "description": "Crypto++ library"
+      },
+      {
+        "name": "jwt-cpp",
+        "license": "MIT",
+        "description": "JWT library"
+      },
+      {
+        "name": "argparse",
+        "license": "MIT",
+        "description": "Argument parser"
+      },
+      {
+        "name": "cxxopts",
+        "license": "MIT",
+        "description": "Command line parser"
+      },
+      {
+        "name": "cli11",
+        "license": "BSD-3-Clause",
+        "description": "Command line parser"
+      },
+      {
+        "name": "docopt",
+        "license": "MIT OR BSL-1.0",
+        "description": "CLI interface"
+      },
+      {
+        "name": "pybind11",
+        "license": "BSD-3-Clause",
+        "description": "Python bindings"
+      },
+      {
+        "name": "nanobind",
+        "license": "BSD-3-Clause",
+        "description": "Python bindings"
+      },
+      {
+        "name": "swig",
+        "license": "GPL-3.0",
+        "description": "Interface generator"
+      },
+      {
+        "name": "rang",
+        "license": "Unlicense",
+        "description": "Terminal colors"
+      },
+      {
+        "name": "termcolor",
+        "license": "BSD-3-Clause",
+        "description": "Terminal coloring"
+      },
+      {
+        "name": "tabulate",
+        "license": "MIT",
+        "description": "Table formatting"
+      },
+      {
+        "name": "indicators",
+        "license": "MIT",
+        "description": "Progress bars"
+      },
+      {
+        "name": "magic_enum",
+        "license": "MIT",
+        "description": "Enum to string"
+      },
+      {
+        "name": "nameof",
+        "license": "MIT",
+        "description": "Name of macro"
+      },
+      {
+        "name": "range-v3",
+        "license": "BSL-1.0",
+        "description": "Range library"
+      },
+      {
+        "name": "expected",
+        "license": "CC0-1.0",
+        "description": "Expected type"
+      },
+      {
+        "name": "optional",
+        "license": "BSL-1.0",
+        "description": "Optional type"
+      },
+      {
+        "name": "variant",
+        "license": "BSL-1.0",
+        "description": "Variant type"
+      },
+      {
+        "name": "date",
+        "license": "MIT",
+        "description": "Date and time library"
+      },
+      {
+        "name": "howard-hinnant-date",
+        "license": "MIT",
+        "description": "Calendar library"
+      },
+      {
+        "name": "stb",
+        "license": "MIT OR Public Domain",
+        "description": "Single-file libraries"
+      },
+      {
+        "name": "imgui",
+        "license": "MIT",
+        "description": "GUI library"
+      },
+      {
+        "name": "dear-imgui",
+        "license": "MIT",
+        "description": "Immediate mode GUI"
+      },
+      {
+        "name": "nanovg",
+        "license": "Zlib",
+        "description": "Vector graphics"
+      },
+      {
+        "name": "cairo",
+        "license": "LGPL-2.1 OR MPL-1.1",
+        "description": "2D graphics"
+      },
+      {
+        "name": "sdl2",
+        "license": "Zlib",
+        "description": "Multimedia library"
+      },
+      {
+        "name": "glfw",
+        "license": "Zlib",
+        "description": "OpenGL framework"
+      },
+      {
+        "name": "glew",
+        "license": "BSD-3-Clause OR MIT",
+        "description": "OpenGL extension"
+      },
+      {
+        "name": "glad",
+        "license": "MIT",
+        "description": "OpenGL loader"
+      },
+      {
+        "name": "glm",
+        "license": "MIT",
+        "description": "Math library for graphics"
+      },
+      {
+        "name": "vulkan",
+        "license": "Apache-2.0",
+        "description": "Graphics API"
+      },
+      {
+        "name": "directx",
+        "license": "MIT",
+        "description": "Graphics API"
+      },
+      {
+        "name": "sfml",
+        "license": "Zlib",
+        "description": "Multimedia library"
+      },
+      {
+        "name": "allegro",
+        "license": "Zlib",
+        "description": "Game library"
+      },
+      {
+        "name": "raylib",
+        "license": "Zlib",
+        "description": "Game programming"
+      },
+      {
+        "name": "box2d",
+        "license": "MIT",
+        "description": "Physics engine"
+      },
+      {
+        "name": "bullet",
+        "license": "Zlib",
+        "description": "Physics simulation"
+      },
+      {
+        "name": "ode",
+        "license": "BSD-3-Clause OR LGPL-2.1",
+        "description": "Physics engine"
+      },
+      {
+        "name": "entt",
+        "license": "MIT",
+        "description": "Entity component system"
+      },
+      {
+        "name": "flecs",
+        "license": "MIT",
+        "description": "ECS framework"
+      },
+      {
+        "name": "taskflow",
+        "license": "MIT",
+        "description": "Parallel programming"
+      },
+      {
+        "name": "tbb",
+        "license": "Apache-2.0",
+        "description": "Threading building blocks"
+      },
+      {
+        "name": "concurrentqueue",
+        "license": "BSD-2-Clause",
+        "description": "Lock-free queue"
+      },
+      {
+        "name": "readerwriterqueue",
+        "license": "BSD-2-Clause",
+        "description": "Lock-free queue"
+      },
+      {
+        "name": "folly",
+        "license": "Apache-2.0",
+        "description": "Facebook library"
+      },
+      {
+        "name": "abseil-cpp",
+        "license": "Apache-2.0",
+        "description": "Google utilities"
+      },
+      {
+        "name": "glog",
+        "license": "BSD-3-Clause",
+        "description": "Google logging"
+      },
+      {
+        "name": "gflags",
+        "license": "BSD-3-Clause",
+        "description": "Google flags"
+      },
+      {
+        "name": "re2",
+        "license": "BSD-3-Clause",
+        "description": "Regular expressions"
+      },
+      {
+        "name": "pcre2",
+        "license": "BSD-3-Clause",
+        "description": "Regex library"
+      },
+      {
+        "name": "icu",
+        "license": "ICU",
+        "description": "Unicode library"
+      },
+      {
+        "name": "utf8cpp",
+        "license": "BSL-1.0",
+        "description": "UTF-8 library"
+      },
+      {
+        "name": "zlib",
+        "license": "Zlib",
+        "description": "Compression library"
+      },
+      {
+        "name": "bzip2",
+        "license": "BSD-like",
+        "description": "Compression library"
+      },
+      {
+        "name": "lz4",
+        "license": "BSD-2-Clause",
+        "description": "Fast compression"
+      },
+      {
+        "name": "zstd",
+        "license": "BSD-3-Clause OR GPL-2.0",
+        "description": "Compression algorithm"
+      },
+      {
+        "name": "snappy",
+        "license": "BSD-3-Clause",
+        "description": "Compression library"
+      },
+      {
+        "name": "libarchive",
+        "license": "BSD-2-Clause",
+        "description": "Archive formats"
+      },
+      {
+        "name": "libzip",
+        "license": "BSD-3-Clause",
+        "description": "ZIP library"
+      },
+      {
+        "name": "miniz",
+        "license": "MIT",
+        "description": "ZIP library"
+      }
+    ]
+  }
+}

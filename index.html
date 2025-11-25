@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dependencies Licenses & Version Collector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        .input-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group:last-child {
+            margin-bottom: 0;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .file-input-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .file-info {
+            flex: 1;
+            padding: 10px 15px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .file-info.selected {
+            color: #333;
+            border-color: #667eea;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .btn-scan {
+            background: #28a745;
+        }
+
+        .btn-scan:hover {
+            background: #218838;
+        }
+
+        .btn-export {
+            background: #007bff;
+        }
+
+        .btn-export:hover {
+            background: #0056b3;
+        }
+
+        .btn-clear {
+            background: #dc3545;
+        }
+
+        .btn-clear:hover {
+            background: #c82333;
+        }
+
+        .status {
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .status.show {
+            display: block;
+        }
+
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .results-section {
+            display: none;
+        }
+
+        .results-section.show {
+            display: block;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .results-header h2 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        .results-count {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .results-content {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            max-height: 500px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            color: #333;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dependencies Licenses & Version Collector</h1>
+        <p class="subtitle">Scan your project folders to identify dependencies and their licenses</p>
+
+        <div class="input-section">
+            <div class="input-group">
+                <label>Select Project Folder:</label>
+                <div class="file-input-wrapper">
+                    <input type="file" id="folderInput" webkitdirectory directory multiple>
+                    <button onclick="document.getElementById('folderInput').click()">Choose Folder</button>
+                    <div class="file-info" id="folderInfo">No folder selected</div>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Select licenses.json File:</label>
+                <div class="file-input-wrapper">
+                    <input type="file" id="licensesInput" accept=".json">
+                    <button onclick="document.getElementById('licensesInput').click()">Choose licenses.json</button>
+                    <div class="file-info" id="licensesInfo">No file selected</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <button class="btn-scan" id="scanBtn" onclick="startScan()" disabled>Scan Dependencies</button>
+            <button class="btn-export" id="exportBtn" onclick="exportReport()" disabled>Export Report</button>
+            <button class="btn-clear" onclick="clearResults()">Clear</button>
+        </div>
+
+        <div class="status" id="status"></div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Scanning files...</p>
+        </div>
+
+        <div class="results-section" id="resultsSection">
+            <div class="results-header">
+                <h2>Scan Results</h2>
+                <span class="results-count" id="resultsCount"></span>
+            </div>
+            <div class="results-content" id="resultsContent"></div>
+        </div>
+    </div>
+
+    <script>
+        let folderFiles = [];
+        let licensesData = null;
+        let scanResults = {};
+
+        // File input handlers
+        document.getElementById('folderInput').addEventListener('change', (e) => {
+            folderFiles = Array.from(e.target.files);
+            const folderInfo = document.getElementById('folderInfo');
+            folderInfo.textContent = `${folderFiles.length} files selected`;
+            folderInfo.classList.add('selected');
+            updateScanButton();
+        });
+
+        document.getElementById('licensesInput').addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    try {
+                        licensesData = JSON.parse(event.target.result);
+                        const licensesInfo = document.getElementById('licensesInfo');
+                        licensesInfo.textContent = `${file.name} loaded`;
+                        licensesInfo.classList.add('selected');
+                        updateScanButton();
+                    } catch (error) {
+                        showStatus('Error parsing licenses.json: ' + error.message, 'error');
+                        licensesData = null;
+                    }
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        function updateScanButton() {
+            const scanBtn = document.getElementById('scanBtn');
+            scanBtn.disabled = !(folderFiles.length > 0 && licensesData !== null);
+        }
+
+        function showStatus(message, type = 'info') {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = `status show ${type}`;
+        }
+
+        function hideStatus() {
+            const status = document.getElementById('status');
+            status.classList.remove('show');
+        }
+
+        async function startScan() {
+            scanResults = {};
+            hideStatus();
+            document.getElementById('loading').classList.add('show');
+            document.getElementById('resultsSection').classList.remove('show');
+            document.getElementById('scanBtn').disabled = true;
+
+            try {
+                // Step 1: Create filename list
+                const fileList = folderFiles.map(f => ({
+                    name: f.name,
+                    path: f.webkitRelativePath,
+                    file: f
+                }));
+
+                // Extract dependencies from licenses.json
+                const dependencies = extractDependenciesFromLicenses(licensesData);
+
+                // Step 2: Scan filenames for matches
+                await scanFilenames(fileList, dependencies);
+
+                // Step 3: Scan file contents for specific file types
+                await scanFileContents(fileList, dependencies);
+
+                // Display results
+                displayResults();
+
+                showStatus(`Scan completed! Found ${Object.keys(scanResults).length} dependencies.`, 'success');
+                document.getElementById('exportBtn').disabled = false;
+
+            } catch (error) {
+                showStatus('Error during scan: ' + error.message, 'error');
+            } finally {
+                document.getElementById('loading').classList.remove('show');
+                document.getElementById('scanBtn').disabled = false;
+            }
+        }
+
+        function extractDependenciesFromLicenses(licenses) {
+            const deps = new Map();
+
+            if (!licenses) return deps;
+
+            // Handle different possible structures of licenses.json
+            if (Array.isArray(licenses)) {
+                licenses.forEach(item => {
+                    const name = item.name || item.packageName || item.dependency;
+                    if (name) {
+                        deps.set(name.toLowerCase(), {
+                            name: name,
+                            version: item.version || 'unknown',
+                            license: item.license || item.licenseType || 'unknown'
+                        });
+                    }
+                });
+            } else if (typeof licenses === 'object') {
+                Object.entries(licenses).forEach(([key, value]) => {
+                    if (typeof value === 'object') {
+                        deps.set(key.toLowerCase(), {
+                            name: key,
+                            version: value.version || 'unknown',
+                            license: value.license || value.licenseType || 'unknown'
+                        });
+                    } else {
+                        deps.set(key.toLowerCase(), {
+                            name: key,
+                            version: 'unknown',
+                            license: value || 'unknown'
+                        });
+                    }
+                });
+            }
+
+            return deps;
+        }
+
+        function scanFilenames(fileList, dependencies) {
+            fileList.forEach(fileInfo => {
+                const fileName = fileInfo.name.toLowerCase();
+                const fileNameWithoutExt = fileName.replace(/\.[^/.]+$/, '');
+
+                dependencies.forEach((depInfo, depName) => {
+                    if (fileName.includes(depName) || fileNameWithoutExt === depName) {
+                        addToResults(depInfo.name, depInfo.version, depInfo.license, fileInfo.path);
+                    }
+                });
+            });
+        }
+
+        async function scanFileContents(fileList, dependencies) {
+            // Filter files by extension
+            const targetExtensions = ['.h', '.cpp', '.csproj', '.xml', '.json'];
+            const targetFiles = fileList.filter(f => {
+                const ext = '.' + f.name.split('.').pop().toLowerCase();
+                const name = f.name.toLowerCase();
+                return targetExtensions.includes(ext) ||
+                       name === 'pom.xml' ||
+                       name === 'package.json' ||
+                       name === 'package-lock.json' ||
+                       name === 'build.xml';
+            });
+
+            for (const fileInfo of targetFiles) {
+                try {
+                    const content = await readFileContent(fileInfo.file);
+                    const lines = content.split('\n');
+
+                    dependencies.forEach((depInfo, depName) => {
+                        // Check each line for dependency name
+                        let found = false;
+                        for (const line of lines) {
+                            const lineLower = line.toLowerCase();
+                            if (lineLower.includes(depName)) {
+                                found = true;
+                                break;
+                            }
+                        }
+
+                        if (found) {
+                            addToResults(depInfo.name, depInfo.version, depInfo.license, fileInfo.path);
+                        }
+                    });
+                } catch (error) {
+                    console.error(`Error reading ${fileInfo.path}:`, error);
+                }
+            }
+        }
+
+        function readFileContent(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = (e) => resolve(e.target.result);
+                reader.onerror = (e) => reject(e);
+                reader.readAsText(file);
+            });
+        }
+
+        function addToResults(depName, version, license, filePath) {
+            const key = depName.toLowerCase();
+
+            if (!scanResults[key]) {
+                scanResults[key] = {
+                    name: depName,
+                    version: version,
+                    license: license,
+                    locations: new Set()
+                };
+            }
+
+            scanResults[key].locations.add(filePath);
+        }
+
+        function displayResults() {
+            const resultsContent = document.getElementById('resultsContent');
+            const resultsSection = document.getElementById('resultsSection');
+            const resultsCount = document.getElementById('resultsCount');
+
+            let output = '';
+            const sortedResults = Object.values(scanResults).sort((a, b) =>
+                a.name.localeCompare(b.name)
+            );
+
+            sortedResults.forEach(dep => {
+                output += `-${dep.name}(${dep.version})[${dep.license}]\n`;
+                const locations = Array.from(dep.locations).sort();
+                locations.forEach((loc, index) => {
+                    const prefix = index === locations.length - 1 ? ' └─' : ' ├─';
+                    output += `${prefix}${loc}\n`;
+                });
+                output += '\n';
+            });
+
+            resultsContent.textContent = output || 'No dependencies found.';
+            resultsCount.textContent = `${sortedResults.length} dependencies found`;
+            resultsSection.classList.add('show');
+        }
+
+        function exportReport() {
+            const resultsContent = document.getElementById('resultsContent').textContent;
+            const blob = new Blob([resultsContent], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'dependencies_report.txt';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showStatus('Report exported successfully!', 'success');
+        }
+
+        function clearResults() {
+            folderFiles = [];
+            licensesData = null;
+            scanResults = {};
+
+            document.getElementById('folderInput').value = '';
+            document.getElementById('licensesInput').value = '';
+            document.getElementById('folderInfo').textContent = 'No folder selected';
+            document.getElementById('folderInfo').classList.remove('selected');
+            document.getElementById('licensesInfo').textContent = 'No file selected';
+            document.getElementById('licensesInfo').classList.remove('selected');
+
+            document.getElementById('resultsSection').classList.remove('show');
+            document.getElementById('scanBtn').disabled = true;
+            document.getElementById('exportBtn').disabled = true;
+            hideStatus();
+        }
+    </script>
+</body>
+</html>

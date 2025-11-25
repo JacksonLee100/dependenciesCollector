@@ -1,0 +1,62 @@
+{
+  "lodash": {
+    "version": "4.17.21",
+    "license": "MIT"
+  },
+  "react": {
+    "version": "18.2.0",
+    "license": "MIT"
+  },
+  "axios": {
+    "version": "1.4.0",
+    "license": "MIT"
+  },
+  "express": {
+    "version": "4.18.2",
+    "license": "MIT"
+  },
+  "bootstrap": {
+    "version": "5.3.0",
+    "license": "MIT"
+  },
+  "jquery": {
+    "version": "3.7.0",
+    "license": "MIT"
+  },
+  "typescript": {
+    "version": "5.0.4",
+    "license": "Apache-2.0"
+  },
+  "webpack": {
+    "version": "5.88.0",
+    "license": "MIT"
+  },
+  "vue": {
+    "version": "3.3.4",
+    "license": "MIT"
+  },
+  "angular": {
+    "version": "16.1.0",
+    "license": "MIT"
+  },
+  "moment": {
+    "version": "2.29.4",
+    "license": "MIT"
+  },
+  "node": {
+    "version": "18.16.0",
+    "license": "MIT"
+  },
+  "npm": {
+    "version": "9.7.2",
+    "license": "Artistic-2.0"
+  },
+  "dotnet": {
+    "version": "7.0.0",
+    "license": "MIT"
+  },
+  "newtonsoft.json": {
+    "version": "13.0.3",
+    "license": "MIT"
+  }
+}
